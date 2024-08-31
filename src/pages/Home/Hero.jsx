@@ -1,6 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Slide } from "react-awesome-reveal";
+import Separator from "../../components/Separator";
+import hero_one from "/assets/hero_one.webp"
+import hero_two from "/assets/hero_two.webp"
 
 const Hero = () => {
   return (
@@ -32,9 +35,10 @@ const Hero = () => {
             className="w-3/4 ml-auto"
           >
             <img
-              src="/assets/hero_one.svg"
+              src={hero_one}
               alt="Makeup brushes"
               className="w-full h-auto shadow-lg"
+              loading="lazy"
             />
           </motion.div>
 
@@ -45,9 +49,10 @@ const Hero = () => {
             className="absolute left-0 -bottom-32 w-1/2 -mb-12 z-20"
           >
             <img
-              src="/assets/hero_two.svg"
+              src={hero_two}
               alt="Serum bottle"
               className="shadow-lg"
+              loading="lazy"
             />
           </motion.div>
         </div>
@@ -75,6 +80,8 @@ const Hero = () => {
           </motion.div>
         </Slide>
       </div>
+
+      <Separator />
     </section>
   );
 };
