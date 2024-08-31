@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <nav className='bg-red-800'>
+    <nav className=''>
       Navbar will do Supriyo
     </nav>
   )
