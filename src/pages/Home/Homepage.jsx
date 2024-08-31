@@ -10,43 +10,37 @@ import WorkTogether from "./WorkTogether";
 const Homepage = () => {
   return (
     <main className="bg-[#FAF5EF]">
-      <div>
-        <Navbar />
-      </div>
-
-      <div>
+      <Navbar />
+      
+      <div className="pt-20"> 
         <Hero />
       </div>
 
-      <div className="bg-green-500 w-full h-20" />
-
-      <div>
+      <section>
         <WhoWeAre />
-      </div>
+      </section>
 
       <div className="bg-green-500 w-full h-20" />
 
-      <div>
+      <section>
         <OurBrands />
-      </div>
+      </section>
 
       <div className="bg-green-500 w-full h-20" />
 
-      <div>
+      <section>
         <BecomeDistributor />
-      </div>
+      </section>
 
       <div className="bg-green-500 w-full h-20" />
 
-      <div>
+      <section>
         <WorkTogether />
-      </div>
+      </section>
 
       <div className="bg-green-500 w-full h-20" />
 
-      <div>
-        <Footer />
-      </div>
+      <Footer />
     </main>
   );
 };

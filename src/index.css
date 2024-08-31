@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+
+.cinzel-font {
+    font-family: 'Cinzel', serif;
+  }
+  
