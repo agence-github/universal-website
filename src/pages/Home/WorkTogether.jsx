@@ -4,6 +4,7 @@ import { Fade, Slide } from "react-awesome-reveal";
 import work_one from "/assets/work_one.webp";
 import work_two from "/assets/work_two.webp";
 import work_three from "/assets/work_three.webp";
+import WaveButton from "../../components/WaveButton";
 
 const WorkTogether = () => {
   return (
@@ -31,13 +32,7 @@ const WorkTogether = () => {
       </Fade>
 
       <div className="flex justify-center py-6">
-        <motion.button
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-          className="px-10 py-4 border-[#C49E5F] border-2 mt-4 hover:text-white text-[#B38D4E] rounded-full hover:bg-[#B38D4E] transition duration-300 text-xl"
-        >
-          Career Options
-        </motion.button>
+      <WaveButton text={"Career options"}/>
       </div>
 
       <div className="flex justify-center gap-5 py-6 lg:flex-row flex-col px-8 lg:px-0">
