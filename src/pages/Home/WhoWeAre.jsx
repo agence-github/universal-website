@@ -1,7 +1,7 @@
 import React from "react";
 import image2 from "/assets/image2.webp";
 import image1 from "/assets/image1.webp";
-// import imagegrp from '/assets/imagegrp.webp';
+import imagegrp from "/assets/imagegrp.webp";
 import image3 from "/assets/image3.webp";
 import { Fade, Slide } from "react-awesome-reveal";
 
@@ -43,7 +43,7 @@ const WhoWeAre = () => {
             </p>
           </Slide>
 
-          <div className="relative">
+          <div className="relative lg:block hidden">
             <Slide direction="right">
               <div className="h-full w-[65%] lg:w-[70%]">
                 <img src={image1} alt="" className="object-cover w-full" />
@@ -51,10 +51,14 @@ const WhoWeAre = () => {
             </Slide>
 
             <Fade>
-              <div className="absolute bottom-[-20%] right-[18%] lg:right-[15%] w-[40%] lg:w-[45%]">
+              <div className="absolute bottom-[-40%] right-[18%] lg:right-[15%] w-[50%] lg:w-[50%]">
                 <img src={image2} alt="" className="object-cover shadow-lg" />
               </div>
             </Fade>
+          </div>
+
+          <div className="flex justify-center lg:hidden">
+            <img src={imagegrp} />
           </div>
         </div>
       </div>

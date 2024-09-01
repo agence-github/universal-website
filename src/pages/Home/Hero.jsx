@@ -1,6 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Slide } from "react-awesome-reveal";
+import Separator from "../../components/Separator";
+import hero_one from "/assets/hero_one.webp"
+import hero_two from "/assets/hero_two.webp"
+import WaveButton from "../../components/WaveButton";
 
 const Hero = () => {
   return (
@@ -32,9 +36,10 @@ const Hero = () => {
             className="w-3/4 ml-auto"
           >
             <img
-              src="/assets/hero_one.svg"
+              src={hero_one}
               alt="Makeup brushes"
               className="w-full h-auto shadow-lg"
+              loading="lazy"
             />
           </motion.div>
 
@@ -45,9 +50,10 @@ const Hero = () => {
             className="absolute left-0 -bottom-32 w-1/2 -mb-12 z-20"
           >
             <img
-              src="/assets/hero_two.svg"
+              src={hero_two}
               alt="Serum bottle"
               className="shadow-lg"
+              loading="lazy"
             />
           </motion.div>
         </div>
@@ -65,16 +71,12 @@ const Hero = () => {
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat.
             </p>
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="px-10 py-4 border-[#C49E5F] border-2 mt-4 hover:text-white text-[#B38D4E] rounded-full hover:bg-[#B38D4E] transition duration-300 text-xl"
-            >
-              Read more
-            </motion.button>
+            <WaveButton text={"Read more"}/>
           </motion.div>
         </Slide>
       </div>
+
+      <Separator />
     </section>
   );
 };
