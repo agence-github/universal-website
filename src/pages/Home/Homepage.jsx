@@ -20,13 +20,13 @@ const Homepage = () => {
         <WhoWeAre />
       </section>
 
-      <div className="bg-green-500 w-full h-20" />
+      <div className="" />
 
       <section>
         <OurBrands />
       </section>
 
-      <div className="bg-green-500 w-full h-20" />
+      <div className="" />
 
       <section>
         <BecomeDistributor />

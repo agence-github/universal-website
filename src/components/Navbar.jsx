@@ -50,7 +50,7 @@ const Navbar = () => {
                     : `${isScrolled ? 'text-black' : 'text-black'} hover:text-[#C49E5F]`
                 }`}
               >
-                {item.label}
+                {item.label} 
               </Link>
             ))}
           </div>

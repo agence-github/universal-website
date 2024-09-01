@@ -21,7 +21,7 @@ const WhoWeAre = () => {
 
               <h2 className="lg:hidden text-5xl font-light cinzel-font">
                 Who We Are
-              </h2>
+              </h2>    
             </div>
           </Slide>
 
