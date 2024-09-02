@@ -3,36 +3,50 @@ import imageForOurBrands from "/assets/imageForOurBrands.webp"
 
 const BecomeDistributor = () => {
   return (
-    <section>
-        <div className= "flex relative items-center justify-end">
-        <h2 className= " flex-col text-[#C49E5F] cinzel-font lg:text-8xl text-6xl sm:text-3xl p-20 pl-36 ">
+    <section className= " flex flex-col lg:flex-row lg:px-20 lg:py-20 md:px-0 ">
+        <div className= " flex flex-1 lg:flex-row md:flex-col sm:flex-col lg:items-start">
+          <div className= "">
+         <h2 className= " flex-col text-[#C49E5F] cinzel-font lg:text-[7rem] md:text-[3.5rem] md:text-center lg:text-start sm:text-3xl  pl-20 ">
+
+          <div className="lg:leading-[100px] md:leading-[50px] lg:tracking-wide md:tracking-tight">
 
           Become A <br />Distributor
+          </div>
 
-          <p className = " text-black text-lg p-1 font-sans lg:w-1/2 mt-5 leading-relaxed ">
+          <p className = " text-black lg:text-xl md:text-lg p-1 font-sans lg:w-4/5 mt-5 leading-relaxed font-semibold">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus debitis accusamus natus inventore culpa aperiam reprehenderit maiores, consequuntur earum nesciunt at ducimus odit laudantium quisquam hic quos perferendis cum corporis.
           </p>
 
-          <button className=" rounded-full border-[#C49E5F] border-2 px-6 py-1 text-xl font-sans">
+          <div className =" flex md:items-center md:justify-center lg:justify-start lg:items-start">
+
+          <button className=" flex rounded-full border-[#C49E5F] border-2 px-6 py-2 text-xl font-sans mt-20">
           Know More
           </button>
-
+          </div>
+          
         </h2>
 
-        <div className = "absolute ">
-          <div className = "lg:h-[90%] lg:w-[100%] md:h-[70%] md:w-[800%] mt-40 lg:pr-32">
-
-          <img src= {imageForOurBrands} alt="" className="object-cover " />
-          </div>
-        </div>
-        </div>
-        <div className=" flex relative cinzel-font font-thin text-[10rem] text-[#C49E5F]/50 -mt-[85px] z-10">
+        <div className=" absolute cinzel-font font-thin lg:text-[11rem] md:text-[7rem] lg:-ml-14 md:ml-2 lg:mt-[25px] md:mt-[29rem] text-[#C49E5F]/50 lg:tracking-wider md:tracking-tighter ">
         LOREM IPSUM
         </div>
 
+        </div>
+
+ 
+
+          <div className = "flex items-end lg:w-[100%] lg:h-[85%] md:h-[60%] md:w-[60%]  lg:mr-16 lg:m-0 md:mt-9 md:m-2">
+
+          <img src= {imageForOurBrands} alt="" className="object-cover h-[100%] w-[100%]" />
+          </div>
+        </div>
 
     </section>
   )
 }
 
 export default BecomeDistributor
+
+
+
+
+

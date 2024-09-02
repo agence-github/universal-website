@@ -32,13 +32,13 @@ const Homepage = () => {
         <BecomeDistributor />
       </section>
 
-      <div className="bg-green-500 w-full h-20" />
+      <div className=" w-full h-20" />
 
       <section>
         <WorkTogether />
       </section>
 
-      <div className="bg-green-500 w-full h-20" />
+      <div className=" w-full h-20" />
 
       <Footer />
     </main>
