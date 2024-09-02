@@ -2,6 +2,7 @@ import React from 'react'
 
 const OurBrands = () => {
   return (
+    
     <section>
 
       <div className = "flex-col justify-center items-start md:flex-col sm:flex-col ">
@@ -10,9 +11,9 @@ const OurBrands = () => {
         <h2 className= "md:block text-6xl mt-14 lg:text-9xl lg:mt-auto text-[#C49E5F] cinzel-font text-center  ">
 
           Our Brands
-        <p className= "text-[#1F1F1F] font-serif text-lg ">
+         <p className= "text-[#1F1F1F] font-serif text-lg ">
 
-         LOREM IPSUM DOLOR SIT AMET.
+         LOREM IPSUM DOLOR SIT AMET.absdjckf
 
          </p>
 
