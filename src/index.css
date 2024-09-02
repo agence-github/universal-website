@@ -11,4 +11,10 @@ body {
 .cinzel-font {
     font-family: 'Cinzel', serif;
   }
-  
+
+.dancing-script-font {
+  font-family: 'Dancing Script', 'cursive';
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight:400
+}
