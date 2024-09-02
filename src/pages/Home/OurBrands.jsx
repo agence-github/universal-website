@@ -13,7 +13,7 @@ const OurBrands = () => {
           Our Brands
          <p className= "text-[#1F1F1F] font-serif text-lg ">
 
-         LOREM IPSUM DOLOR SIT AMET.absdjckf
+         LOREM IPSUM DOLOR SIT AMET.
 
          </p>
 
