@@ -2,7 +2,7 @@
 import React, {useState,useRef, useEffect} from 'react'
 import {motion} from "framer-motion"
 
-const duration = 0.6;
+const duration = 0.8;
 const stagger = 0.04
 
 const word= "Our Brands"
@@ -90,7 +90,7 @@ const OurBrands = () => {
       variants = {rectangleVariants}
       initial= "initial"
       animate = {inView ? "animate" : "initial"}
-      transition= {{duration:1, ease:"easeInOut"}}
+      transition= {{duration:0.7, ease:"easeInOut"}}
 
 
       />
