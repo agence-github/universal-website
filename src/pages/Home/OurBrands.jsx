@@ -41,8 +41,8 @@ const splitLetters = word.split("").map((letter,index) => {
     className=" relative inline-block text-6xl mt-14 lg:text-9xl lg:mt-auto text-center cinzel-font"
     
     >
-          {letter === " " ? "\u00A0" : letter}
-          </motion.span>
+    {letter === " " ? "\u00A0" : letter}
+    </motion.span>
 
   )
 }) 

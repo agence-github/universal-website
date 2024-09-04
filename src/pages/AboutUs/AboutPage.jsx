@@ -10,7 +10,7 @@ const AboutPage = () => {
     <main className="bg-[#FAF5EF]">
       <Navbar />
 
-      <section>
+      <section className= "pt-20">
         <AboutHero />
       </section>
 
