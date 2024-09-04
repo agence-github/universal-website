@@ -24,10 +24,10 @@ const Navbar = () => {
   const navItems = [
     { path: "/", label: "Home" },
     { path: "/about", label: "About Us" },
-    { path: "/services", label: "Services" },
+    { path: "/brands", label: "Our Brands" },
     { path: "/brands", label: "Our Brands" },
     { path: "/distributor", label: "Distributor Desk" },
-    { path: "/expertise", label: "Expertise" },
+    { path: "/supply-chain", label: "Supply Chain Network" },
     { path: "/careers", label: "Careers" },
   ];
 
@@ -44,7 +44,7 @@ const Navbar = () => {
               <Link
                 key={item.path}
                 to={item.path}
-                className={`text-lg font-medium transition-all duration-300 px-4 py-2 rounded-md ${
+                className={`font-medium transition-all duration-300 px-2 py-2 rounded-md ${
                   location.pathname === item.path
                     ? 'text-[#C49E5F] bg-opacity-20 bg-[#C49E5F]'
                     : `${isScrolled ? 'text-black' : 'text-black'} hover:text-[#C49E5F]`
