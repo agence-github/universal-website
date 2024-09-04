@@ -4,6 +4,7 @@ import Footer from "../../components/Footer";
 import AboutHero from "./AboutHero";
 import MissionVision from "./MissionVision";
 import Sustainability from "./Sustainability";
+import AboutSection from "./AboutSection";
 
 const AboutPage = () => {
   return (
@@ -23,7 +24,7 @@ const AboutPage = () => {
       </section>
 
       <section>
-        rest will do supriyo
+       <AboutSection />
       </section>
 
       <section></section>
