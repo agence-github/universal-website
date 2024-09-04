@@ -1,6 +1,8 @@
 
 import React, {useState,useRef, useEffect} from 'react'
 import {motion} from "framer-motion"
+import mousePointer from '../../utils/mousePointer.js';
+import Freya from "../../components/OurBrandComps/Freya.jsx"
 
 const duration = 0.8;
 const stagger = 0.04
@@ -77,6 +79,11 @@ const OurBrands = () => {
     };
   }, [inView]);
 
+  const {x,y} = mousePointer();
+  const [isHovered,setIsHovered] = useState(false)
+
+  const size = isHovered ?400:40
+
 
   return (
     
@@ -111,34 +118,88 @@ const OurBrands = () => {
 
         <div className= "flex  justify-around lg:-space-x-96 p-3">
 
-          <div className=" flex h-24 w-24 sm:h-28 sm:w-28 lg:h-36 lg:w-36 justify-center items-center rounded-full bg-white drop-shadow-lg ">
+          {/* <div className=" flex h-24 w-24 sm:h-28 sm:w-28 lg:h-36 lg:w-36 justify-center items-center rounded-full bg-white drop-shadow-lg ">
             <div
             className= "text-[#C49E5F] text-3xl sm:text-4xl lg:text-5xl dancing-script-font font-bold"
             
             >freya</div>
-            
-          </div>
 
-          <div className=" flex h-24 w-24 sm:h-28 sm:w-28 lg:h-36 lg:w-36 justify-center items-center rounded-full bg-white drop-shadow-lg ">
+           </div> */}
+
+           <div className = "flex bg-red">
+
+           <Freya></Freya>
+
+
+           <motion.div
+           animate= {{
+            WebkitMaskPosition: `${x - size /2}px ${y-size /2}px `,
+            WebkitMaskSize: `${size}px`,
+           }}
+
+           transition= {{
+            type:"tween", ease: "backOut",
+           }}
+
+           style = {{
+            WebkitMaskPosition: `${x - size /2}px ${y-size /2}px `,
+            WebkitMaskSize: `${size}px`,
+           }}
+           className= "absolute mask1 bg-red-500"
+           >
+           {/* <div className=" flex absolute h-24 w-24 sm:h-28 sm:w-28 lg:h-36 lg:w-36 justify-center items-center rounded-full bg-white drop-shadow-lg "> */}
+            <div
+            onMouseEnter = {() => {
+              setIsHovered(true)
+            }}
+
+            onMouseLeave = {() => {
+              setIsHovered(false)
+            }}
+            className= ""
+            
+            > <Freya></Freya> </div>
+            
+          {/* </div> */}
+          </motion.div>
+          </div>
+            
+
+          <div className=" flex relative h-24 w-24 sm:h-28 sm:w-28 lg:h-36 lg:w-36 justify-center items-center rounded-full bg-white drop-shadow-lg ">
+            <div
+            className= "text-[#C49E5F] text-3xl sm:text-4xl lg:text-5xl dancing-script-font font-bold"
+            
+            >luv</div>
+           <div className=" flex absolute h-24 w-24 sm:h-28 sm:w-28 lg:h-36 lg:w-36 justify-center items-center rounded-full bg-white drop-shadow-lg ">
             <div
             className= "text-[#C49E5F] text-3xl sm:text-4xl lg:text-5xl dancing-script-font font-bold"
             
             >luv</div>
             
           </div>
+            
+          </div>
 
-          <div className=" flex h-24 w-24 sm:h-28 sm:w-28 lg:h-36 lg:w-36 justify-center items-center rounded-full bg-white drop-shadow-lg ">
+          <div className=" flex relative  h-24 w-24 sm:h-28 sm:w-28 lg:h-36 lg:w-36 justify-center items-center rounded-full bg-white drop-shadow-lg ">
+            <div
+            className= "text-[#C49E5F] text-3xl sm:text-4xl lg:text-5xl dancing-script-font font-bold"
+            
+            >care</div>
+
+<div className=" flex absolute  h-24 w-24 sm:h-28 sm:w-28 lg:h-36 lg:w-36 justify-center items-center rounded-full bg-white drop-shadow-lg ">
             <div
             className= "text-[#C49E5F] text-3xl sm:text-4xl lg:text-5xl dancing-script-font font-bold"
             
             >care</div>
             
           </div>
+            
+          </div>
 
         </div>
 
       </div>
-c    </section>
+    </section>
   )
 }
 
