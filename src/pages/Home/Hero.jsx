@@ -33,7 +33,7 @@ const Hero = () => {
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.4 }}
-            className="w-3/4 ml-auto"
+            className="w-4/4 ml-auto lg:mx-auto"
           >
             <img
               src={hero_one}
@@ -47,7 +47,7 @@ const Hero = () => {
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.6 }}
-            className="absolute left-0 -bottom-32 w-1/2 -mb-12 z-20"
+            className="absolute lg:left-10 left-4 -bottom-32 lg:top-3/4 w-1/2 -mb-12 z-20"
           >
             <img
               src={hero_two}
