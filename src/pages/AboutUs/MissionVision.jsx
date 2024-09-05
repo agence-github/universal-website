@@ -19,16 +19,11 @@ const MissionVision = () => {
 
         </div>
         </div>
-
-
         <div className = " mt-8">
 
 
           <img src={Mission} alt="" className= "h-auto w-[100%] object-cover"/>
         </div>
-
-
-      
       </div>
 
       <div className =" max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-10 border-t-2 border-[#C49E5F] mt-10">
@@ -49,10 +44,6 @@ const MissionVision = () => {
 
            </div>
               </div>
-
-
-
-
 
 
                </div>
