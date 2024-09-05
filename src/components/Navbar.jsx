@@ -25,7 +25,6 @@ const Navbar = () => {
     { path: "/", label: "Home" },
     { path: "/about", label: "About Us" },
     { path: "/brands", label: "Our Brands" },
-    { path: "/brands", label: "Our Brands" },
     { path: "/distributor", label: "Distributor Desk" },
     { path: "/supply-chain", label: "Supply Chain Network" },
     { path: "/careers", label: "Careers" },
