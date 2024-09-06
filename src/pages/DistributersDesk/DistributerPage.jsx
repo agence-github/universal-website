@@ -3,6 +3,7 @@ import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import DistributerBenefit from './DistributerBenefit'
 import DistributorHome from './DistributorHome'
+import DistributerFeatures from './DistributerFeatures'
 
 function DistributerPage() {
   return (
@@ -10,6 +11,7 @@ function DistributerPage() {
         <Navbar/>
         <DistributorHome/>
         <DistributerBenefit/>
+        <DistributerFeatures/>
         <Footer/>
 
     </main>
