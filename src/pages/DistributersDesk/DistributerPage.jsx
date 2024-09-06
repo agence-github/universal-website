@@ -1,8 +1,16 @@
 import React from 'react'
+import Navbar from '../../components/Navbar'
+import Footer from '../../components/Footer'
+import DistributerBenefit from './DistributerBenefit'
 
 function DistributerPage() {
   return (
-    <div>DistributerPage</div>
+    <main className="bg-[#FAF5EF]">
+        <Navbar/>
+        <DistributerBenefit/>
+        <Footer/>
+
+    </main>
   )
 }
 
