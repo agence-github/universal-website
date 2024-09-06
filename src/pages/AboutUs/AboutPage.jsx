@@ -5,6 +5,7 @@ import AboutHero from "./AboutHero";
 import MissionVision from "./MissionVision";
 import Sustainability from "./Sustainability";
 import AboutSection from "./AboutSection";
+import ProductImg from "./ProductImg";
 
 const AboutPage = () => {
   return (
@@ -27,7 +28,9 @@ const AboutPage = () => {
        <AboutSection />
       </section>
 
-      <section></section>
+      <section>
+        <ProductImg />
+      </section>
 
       <section></section>
 
