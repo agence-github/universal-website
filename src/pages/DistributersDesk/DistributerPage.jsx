@@ -4,6 +4,7 @@ import Footer from '../../components/Footer'
 import DistributerBenefit from './DistributerBenefit'
 import DistributorHome from './DistributorHome'
 import DistributerFeatures from './DistributerFeatures'
+import FaqSection from './FaqSection'
 
 function DistributerPage() {
   return (
@@ -12,6 +13,7 @@ function DistributerPage() {
         <DistributorHome/>
         <DistributerBenefit/>
         <DistributerFeatures/>
+        <FaqSection/>
         <Footer/>
 
     </main>
