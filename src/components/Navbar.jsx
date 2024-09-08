@@ -3,7 +3,7 @@ import Logo from "/assets/logo.svg";
 import { FaBars } from "react-icons/fa";
 import { Link, useLocation } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = ({color}) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const location = useLocation();
@@ -46,7 +46,7 @@ const Navbar = () => {
                 className={`font-medium transition-all duration-300 px-2 py-2 rounded-md ${
                   location.pathname === item.path
                     ? 'text-[#C49E5F] bg-opacity-20 bg-[#C49E5F]'
-                    : `${isScrolled ? 'text-black' : 'text-black'} hover:text-[#C49E5F]`
+                    : `${isScrolled ? 'text-black' : `${color}`} hover:text-[#C49E5F]`
                 }`}
               >
                 {item.label} 

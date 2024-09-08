@@ -39,7 +39,6 @@ const WorkTogether = () => {
         <Slide direction="left"><img src={work_one} alt="img" /></Slide>
         <Slide direction="up"><img src={work_three} alt="img" /></Slide>
         <Slide direction="right"><img src={work_two} alt="img" /></Slide>
-       
       </div>
     </section>
   );
