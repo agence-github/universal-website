@@ -1,6 +1,7 @@
 import React from 'react'
 import { Fade } from 'react-awesome-reveal'
 import { motion } from "framer-motion";
+import CareerForm from '../../components/CareerForm';
 
 const StartJourney = () => {
   return (
@@ -18,6 +19,10 @@ const StartJourney = () => {
         <Fade>
           start your journey
         </Fade>
+      </div>
+
+      <div>
+        <CareerForm />
       </div>
     </section>
   )
