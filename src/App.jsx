@@ -10,6 +10,7 @@ import AboutPage from "./pages/AboutUs/AboutPage";
 import DistributerPage from "./pages/DistributersDesk/DistributerPage";
 import BrandsPage from "./pages/Brands/BrandsPage";
 import CareersPage from "./pages/Careers/CareersPage";
+import ContactUsPage from "./pages/ContactUs/ContactUsPage";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
         <Route path="/brands" element={<BrandsPage />}/>
         <Route path="/distributor" element={<DistributerPage/>}/>
         <Route path="/careers" element={<CareersPage />}/>
+        <Route path="/contact" element={<ContactUsPage />}/>
       </Routes>
     </BrowserRouter>
   )
