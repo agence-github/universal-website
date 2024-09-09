@@ -1,10 +1,10 @@
 import React from 'react';
-import distriHome from "/assets/distriHome.svg";
+import distriHome from "/assets/distriHome.webp";
 import WaveButton from '../../components/WaveButton';
 
 function DistributorHome() {
   return (
-    <div className="bg-white pt-20">
+    <div className="pt-20">
       <div className="container mx-auto px-4">
         
         <div className="flex flex-col lg:flex-row items-center justify-between">

@@ -10,7 +10,7 @@ function DistributerPage() {
   return (
     <main className="bg-[#FAF5EF]">
       <Navbar />
-      <section className="lg:my-12">
+      <section className="lg:pt-12">
         <DistributorHome />
       </section>
       <section>

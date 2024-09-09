@@ -18,7 +18,7 @@ function FaqSection() {
   ]);
 
   return (
-    <div className="bg-white py-16 px-4 sm:px-6 lg:px-8">
+    <div className="py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto text-center cinzel-font">
         <h2 className="lg:text-7xl text-3xl  tracking-tight text-[#C49E5F] sm:text-4xl">Frequently Asked Questions</h2>
         <p className="mt-2 text-lg text-gray-500">

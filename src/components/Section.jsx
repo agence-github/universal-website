@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Section({ title, description, imageSrc, reverse }) {
+function Section({ title, description, imageSrc, reverse, direction }) {
   return (
     <div className={`max-w-7xl mx-auto flex flex-col ${reverse ? 'lg:flex-row-reverse ' : 'lg:flex-row '} justify-between items-center gap-10 `}>
       <div className="lg:w-2/3">
