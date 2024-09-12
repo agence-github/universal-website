@@ -15,15 +15,15 @@ const Afterhero = () => {
       >
         <div className="lg:w-2/3">
           <div className="text-[#C49E5F] lg:text-7xl text-5xl cinzel-font my-6 text-center lg:text-left">
-            Lorem ipsum 
+            Lorem ipsum
             <p className="pt-2">dolor Amit</p>
           </div>
           <div className="text-black lg:text-xl text-center lg:text-left px-10 lg:px-0 mt-0 tracking-normal font-medium">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco
+            Ease yourself into adopting a satisfying career with Universal
+            Distributor LLC that encompasses passion and business. Being part of
+            this vibrant group entails working alongside the best talents in
+            this field, advanced branding and marketing and product development
+            skills, and participating in a cause that truly matters.
           </div>
         </div>
 

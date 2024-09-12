@@ -20,7 +20,7 @@ const BrandsHero = () => {
         >
           Our <p></p>Brands
 
-          <p className="text-2xl font-sans pt-4 w-[700px] hidden lg:block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p className="text-2xl font-sans pt-4 w-[700px] hidden lg:block">Discover our family of exceptional brands: Luv, Care, and Freya. Each brand offers a range of products specifically designed to enhance the quality of your daily life. From oral care to personal hygiene, our brands are committed to quality, innovation, and your well-being.</p>
         </motion.h1>
       </div>
     </section>

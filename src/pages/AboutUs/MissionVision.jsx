@@ -15,14 +15,14 @@ const MissionVision = () => {
           </Slide>
           <Fade>
             <div className=" text-black lg:text-xl mt-0 tracking-normal font-medium lg:mr-14">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Similique animi explicabo veniam? Blanditiis perferendis, nesciunt
-              cupiditate alias praesentium id iure sequi, consequuntur placeat
-              qui nostrum quae quidem voluptatum beatae aspernatur! Lorem ipsum
-              dolor sit amet, consectetur adipisicing elit. Similique animi
-              explicabo veniam? Blanditiis perferendis, nesciunt cupiditate
-              alias praesentium id iure sequi, consequuntur placeat qui nostrum
-              quae quidem voluptatum beatae aspernatur!
+              We at the Universal Distributor LLC would like to help people feel
+              good about themselves and their unique beauties. Our great
+              products come through Luv, Care, and Freya to help make life's
+              simple self-care better. We partner with distributors throughout
+              the world to help create a culture wherein people love and believe
+              in themselves. Core in our mission is to inspire and lift the
+              masses up with new, useful, and affordable ways to take care of
+              one's self.
             </div>
           </Fade>
         </div>
@@ -53,14 +53,12 @@ const MissionVision = () => {
           </Slide>
           <Fade>
             <div className=" text-black lg:text-xl mt-0 tracking-normal font-medium lg:text-end lg:ml-14">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Similique animi explicabo veniam? Blanditiis perferendis, nesciunt
-              cupiditate alias praesentium id iure sequi, consequuntur placeat
-              qui nostrum quae quidem voluptatum beatae aspernatur! Lorem ipsum
-              dolor sit amet, consectetur adipisicing elit. Similique animi
-              explicabo veniam? Blanditiis perferendis, nesciunt cupiditate
-              alias praesentium id iure sequi, consequuntur placeat qui nostrum
-              quae quidem voluptatum beatae aspernatur!
+              At Universal Distributor LLC, we are committed to a future where
+              self-care is truly within reach. We are the leading provider of
+              top-of-the-line personal care products. We partner with other
+              amazing brands like Luv, Care, and Freya to spread the message of
+              empowering people through self-love. Creating confidence through
+              our products, one accessory at a time.
             </div>
           </Fade>
         </div>

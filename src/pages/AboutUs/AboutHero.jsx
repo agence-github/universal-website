@@ -36,14 +36,13 @@ const AboutHero = () => {
       </div>
 
       <Fade>
-      <div className="text-center lg:px-20 text-sm px-8 pt-8 lg:pt-0 lg:text-xl">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        commodo consequat. ullamco laboris nisi ut.
-      </div>
+        <div className="text-center lg:px-20 text-sm px-8 pt-8 lg:pt-0 lg:text-xl">
+          Explore an open position with Universal Distributor LLC and get
+          wellness and entrepreneurship experience along the way! We're always
+          appealing to talented people who love self-care and brand building. If
+          you're driven, creative, and ready to make a positive change.
+          Then contact us!
+        </div>
       </Fade>
     </section>
   );

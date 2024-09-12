@@ -5,7 +5,7 @@ import aboyimg from "/assets/aboutimg.webp";
 const AboutSection = () => {
   return (
     <section className="py-10 lg:flex overflow-hidden">
-      <motion.div 
+      <motion.div
         className="bg-[#C49E5F] w-full lg:flex lg:justify-center lg:items-center"
         initial={{ opacity: 0, x: -100 }}
         whileInView={{ opacity: 1, x: 0 }}
@@ -13,44 +13,58 @@ const AboutSection = () => {
         viewport={{ once: false, amount: 0.3 }}
       >
         <div className="lg:pr-12 lg:pb-10 p-10 lg:p-0">
-          <motion.h1 
+          <motion.h1
             className="text-center lg:text-xl text-lg uppercase tracking-wider text-[#ebebeb] pt-6 lg:pt-0"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.2, type: "spring", stiffness: 100 }}
+            transition={{
+              duration: 0.5,
+              delay: 0.2,
+              type: "spring",
+              stiffness: 100,
+            }}
             viewport={{ once: false, amount: 0.3 }}
           >
             LOREM IPSUM
           </motion.h1>
 
-          <motion.p 
+          <motion.p
             className="lg:text-7xl text-5xl text-center text-white lg:tracking-wider cinzel-font py-2"
             initial={{ opacity: 0, scale: 0.8 }}
             whileInView={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5, delay: 0.4, type: "spring", stiffness: 100 }}
+            transition={{
+              duration: 0.5,
+              delay: 0.4,
+              type: "spring",
+              stiffness: 100,
+            }}
             viewport={{ once: false, amount: 0.3 }}
           >
             lorem ipsum
           </motion.p>
 
-          <motion.p 
+          <motion.p
             className="py-4 text-white text-center lg:px-20 px-3 lg:text-lg text-sm"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.6, type: "spring", stiffness: 100 }}
+            transition={{
+              duration: 0.5,
+              delay: 0.6,
+              type: "spring",
+              stiffness: 100,
+            }}
             viewport={{ once: false, amount: 0.3 }}
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commo consequat. Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut ore
-            et dolore magna aliqua. Ut enim ad minim venia, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Lorem ipsum dolor sit met, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco labor
-            nisi ut aliquip ex ea commodo consequat.
+            Universal Distributor LLC offers unique Luv, Care, and Freya brands
+            for each of these. Our portfolio of products serves a wide range of
+            consumer needs and tastes-from Oral Care Accessories to Personal
+            Care Products, among others. As part of its initiative to ensure the
+            success of its associates, full marketing and promotional support is
+            given to each of the brands to drive improved sales and build brand
+            equity. Plus, competitive rates and terms to help you improve your
+            bottom line. We're a loyal partner-we're here to help craft just the
+            right consistent experience that moves your business forward
+            and takes it there.
           </motion.p>
         </div>
       </motion.div>

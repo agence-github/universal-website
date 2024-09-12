@@ -25,20 +25,26 @@ const WorkTogether = () => {
       </div>
 
       <Fade className="text-center lg:px-40 lg:text-xl px-10 text-sm">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
+        Explore an open position with Universal Distributor LLC and get wellness
+        and entrepreneurship experience along the way! We're always appealing to
+        talented people who love self-care and brand building. If you're driven,
+        creative, and ready to make a positive change. Then contact us!
       </Fade>
 
       <div className="flex justify-center py-6">
-      <WaveButton text={"Career options"}/>
+        <WaveButton text={"Career options"} />
       </div>
 
       <div className="flex justify-center gap-5 py-6 lg:flex-row flex-col px-8 lg:px-0">
-        <Slide direction="left"><img src={work_one} alt="img" /></Slide>
-        <Slide direction="up"><img src={work_three} alt="img" /></Slide>
-        <Slide direction="right"><img src={work_two} alt="img" /></Slide>
+        <Slide direction="left">
+          <img src={work_one} alt="img" />
+        </Slide>
+        <Slide direction="up">
+          <img src={work_three} alt="img" />
+        </Slide>
+        <Slide direction="right">
+          <img src={work_two} alt="img" />
+        </Slide>
       </div>
     </section>
   );

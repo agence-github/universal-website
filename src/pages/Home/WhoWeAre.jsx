@@ -21,7 +21,7 @@ const WhoWeAre = () => {
 
               <h2 className="lg:hidden text-5xl font-light cinzel-font">
                 Who We Are
-              </h2>    
+              </h2>
             </div>
           </Slide>
 
@@ -37,9 +37,11 @@ const WhoWeAre = () => {
           <Slide direction="up">
             {" "}
             <p className="text-gray-600 text-lg leading-relaxed mb-10 lg:w-3/4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam.
+              Our company transcends the definition of mere distributorship; we
+              also act as a brand incubator. Our brand portfolio, which includes
+              Luv, Care, and Freya, has a full product range, including daily
+              essentials, indulgent treats, and everything useful in between for
+              any lifestyle.
             </p>
           </Slide>
 

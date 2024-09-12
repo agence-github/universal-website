@@ -2,8 +2,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Slide } from "react-awesome-reveal";
 import Separator from "../../components/Separator";
-import hero_one from "/assets/hero_one.webp"
-import hero_two from "/assets/hero_two.webp"
+import hero_one from "/assets/hero_one.webp";
+import hero_two from "/assets/hero_two.webp";
 import WaveButton from "../../components/WaveButton";
 
 const Hero = () => {
@@ -23,7 +23,7 @@ const Hero = () => {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="text-6xl sm:text-7xl lg:text-[160px] text-center text-[#C49E5F] lg:tracking-wider relative z-10 top-3 cinzel-font lg:top-4"
+          className="text-6xl sm:text-7xl lg:text-[160px] md:text-[120px] text-center text-[#C49E5F] lg:tracking-wider relative z-10 top-3 cinzel-font lg:top-4"
         >
           Lorem Ipsum
         </motion.h1>
@@ -66,12 +66,13 @@ const Hero = () => {
             className="lg:mt-5 mt-48 max-w-lg lg:ml-[500px] ml-auto"
           >
             <p className="text-gray-700 mb-4 lg:text-lg">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              From the refreshing and invigorating feel of LUV, to the confident
+              smile of CARE, and to the luxurious feel of FREYA. Universal
+              Distributor LLC is a company that houses three distinct brands. We
+              have you covered to feel good, clean and refreshed anytime,
+              anywhere.
             </p>
-            <WaveButton text={"Read more"}/>
+            <WaveButton text={"Read more"} />
           </motion.div>
         </Slide>
       </div>
