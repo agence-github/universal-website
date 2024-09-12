@@ -81,7 +81,7 @@ const BecomeDistributor = () => {
 
           <motion.div
             variants={itemVariants}
-            className="cinzel-font font-thin text-6xl sm:text-7xl lg:text-[9rem] text-[#C49E5F]/70 tracking-wider mt-10 lg:ml-12 text-center lg:text-left whitespace-nowrap absolute z-50 hidden lg:block"
+            className="cinzel-font font-thin text-6xl sm:text-7xl lg:text-[9rem] text-[#C49E5F]/70 tracking-wider mt-10 lg:ml-12 text-center lg:text-left whitespace-nowrap absolute z-10 hidden lg:block"
           >
             LOREM IPSUM
           </motion.div>
