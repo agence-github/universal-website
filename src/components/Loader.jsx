@@ -18,7 +18,7 @@ const Loader = () => {
     }, 30);
 
     const animation = async () => {
-      await controls.start({ scale: [1, 1.2, 1], rotate: [0, 360], transition: { duration: 2, repeat: Infinity } });
+      await controls.start({ scale: [1, 1.2, 1], transition: { duration: 2, repeat: Infinity } });
     };
     animation();
 
