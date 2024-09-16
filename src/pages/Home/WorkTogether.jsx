@@ -18,7 +18,7 @@ const WorkTogether = () => {
         Careers
       </motion.h2>
 
-      <div className="lg:text-7xl text-4xl text-center text-[#C49E5F] lg:tracking-wider cinzel-font uppercase lg:py-8 py-4">
+      <div className="lg:text-7xl text-4xl text-center text-[#C49E5F] lg:tracking-wider cinzel-font uppercase lg:py-8 py-4 px-8 lg:px-0">
         <Fade delay={1e3} cascade damping={1e-1}>
           let’s work together
         </Fade>
