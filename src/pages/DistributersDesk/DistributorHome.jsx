@@ -10,11 +10,11 @@ function DistributorHome() {
         <div className="flex flex-col lg:flex-row items-center justify-between">
           
           <div className="lg:w-1/2 text-center lg:text-left">
-            <h1 className="lg:text-8xl text-4xl cinzel-font  text-[#C49E5F] my-4">
-              LOREM IPSUM DOLOR SIT AMET ELIT
+            <h1 className="lg:text-8xl text-4xl cinzel-font  text-[#C49E5F] my-2">
+            ELEVATE YOUR BUSINESS WITH UNIVERSAL DISTRIBUTOR LLC  
             </h1>
-            <p className="text-lg text-gray-600 mb-8 lg:w-[90%]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <p className="text-lg text-gray-600 mb-4 lg:w-[90%]">
+            Become a distributing partner with Universal Distributor LLC and open the door to endless possibilities. You will join an ever-growing family of successful distributors while having access to our great brands at competitive prices and receive first-class support.  
             </p>
             <WaveButton text="Get in touch" />
           </div>
