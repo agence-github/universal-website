@@ -1,26 +1,27 @@
 import React, { useState } from "react";
 import ReactPlayer from "react-player";
-import { Fade } from "react-awesome-reveal";
+import { Fade, Slide } from "react-awesome-reveal";
 import vdo from "/assets/video.mp4";
+import Separator from "../../components/Separator";
 
-const Sustainability = () => {
+const SupplyHero = () => {
   const [isPlaying, setIsPlaying] = useState(true);
 
   const togglePlayPause = () => {
     setIsPlaying(!isPlaying);
   };
-
   return (
-    <section className="lg:py-12 py-6">
-      <Fade delay={1e3} cascade damping={1e-1}>
-        <div className="text-[#C49E5F] lg:text-8xl md:text-5xl text-4xl cinzel-font lg:mb-10 lg:mt-8 uppercase text-center">
-          Sustainability
-        </div>
-      </Fade>
+    <section className="lg:pt-12">
+      <div className="lg:text-7xl text-4xl text-center text-[#C49E5F] lg:tracking-wider cinzel-font uppercase py-4">
+        <Slide className="pb-3">A Global Netwrok</Slide>
+        <Slide direction="right">For Local Needs</Slide>
+      </div>
 
       <Fade>
-        <div className="text-center lg:px-20 text-sm px-8 py-5 lg:pt-0 lg:text-xl">
-        Universal Distributor LLC is committed to minimizing our environmental impact and promoting sustainable practices throughout our operations. We strive to add eco-friendly practices in production and supply chain, reduce waste, and support initiatives that protect our planet.
+        <div className="text-center lg:px-36 text-sm px-8 pt-2 lg:pt-0 lg:text-xl">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation
         </div>
       </Fade>
 
@@ -44,8 +45,10 @@ const Sustainability = () => {
           />
         </div>
       </div>
+
+      <Separator />
     </section>
   );
 };
 
-export default Sustainability;
+export default SupplyHero;
