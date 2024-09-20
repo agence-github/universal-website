@@ -5,6 +5,7 @@ import DistributerBenefit from "./DistributerBenefit";
 import DistributorHome from "./DistributorHome";
 import DistributerFeatures from "./DistributerFeatures";
 import FaqSection from "./FaqSection";
+import KeyContact from "../../components/KeyContact";
 
 function DistributerPage() {
   return (
@@ -21,6 +22,10 @@ function DistributerPage() {
       </section>
       <section>
         <FaqSection />
+      </section>
+
+      <section>
+        <KeyContact />
       </section>
 
       <Footer />
