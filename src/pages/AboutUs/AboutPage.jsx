@@ -6,6 +6,7 @@ import MissionVision from "./MissionVision";
 import Sustainability from "./Sustainability";
 import AboutSection from "./AboutSection";
 import ProductImg from "./ProductImg";
+import Leadership from "./Leadership";
 
 const AboutPage = () => {
   return (
@@ -21,6 +22,10 @@ const AboutPage = () => {
       </section>
 
       <section>
+        <Leadership />
+      </section>
+
+      <section>
         <Sustainability />
       </section>
 
@@ -32,7 +37,7 @@ const AboutPage = () => {
         <ProductImg />
       </section>
 
-      <section></section>
+      
 
       <Footer />
     </main>
