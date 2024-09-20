@@ -4,6 +4,7 @@ import Footer from "../../components/Footer";
 import ContactHero from "./ContactHero";
 import Separator from "../../components/Separator";
 import WhereToFind from "./WhereToFind";
+import KeyContact from "../../components/KeyContact";
 
 const ContactUsPage = () => {
   return (
@@ -17,6 +18,10 @@ const ContactUsPage = () => {
 
       <section>
         <WhereToFind />
+      </section>
+
+      <section>
+        <KeyContact />
       </section>
       <Footer />
     </main>
