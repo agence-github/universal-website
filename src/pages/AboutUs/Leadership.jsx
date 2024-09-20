@@ -12,7 +12,7 @@ const Leadership = () => {
         </div>
       </Fade>
 
-      <div className="flex justify-center lg:flex-row flex-col items-center py-5">
+      {/* <div className="flex justify-center lg:flex-row flex-col items-center py-5">
         <LeaderComponent
           img={leader}
           name={"sheikh majid hamad saqar al qasimi"}
@@ -30,18 +30,18 @@ const Leadership = () => {
           name={"sheikh majid hamad saqar al qasimi"}
           position={"(Group Chairman)"}
         />
-      </div>
+      </div> */}
 
       <div className="flex justify-center  lg:flex-row flex-col items-center pt-5">
-        <LeaderComponent
+        {/* <LeaderComponent
           img={leader}
           name={"sheikh majid hamad saqar al qasimi"}
           position={"(Group Chairman)"}
-        />
+        /> */}
         <LeaderComponent
           img={leader}
-          name={"sheikh majid hamad saqar al qasimi"}
-          position={"(Group Chairman)"}
+          name={"Siddhart Gupta"}
+          position={"(Head Sales Marketing)"}
         />
       </div>
     </section>
