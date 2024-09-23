@@ -40,6 +40,44 @@ const Brands = () => {
       </Fade>
 
       <Fade>
+        <div className="flex justify-center gap-12 lg:flex-row flex-col pt-6">
+          <Brandcard
+            img={freya}
+            link={"/brands/freya"}
+            heading={"Skino"}
+            subheading1={"Lorem ipsum"}
+            subheading2={"dolor sit amet"}
+          />
+          <Brandcard
+            img={luv}
+            link={"/brands/luv"}
+            heading={"Max Styling Gel"}
+            subheading1={"Lorem ipsum"}
+            subheading2={"dolor sit amet"}
+          />
+          <Brandcard
+            img={care}
+            link={"/brands/care"}
+            heading={"Max Cleaning Gel"}
+            subheading1={"Lorem ipsum"}
+            subheading2={"dolor sit amet"}
+          />
+        </div>
+      </Fade>
+
+      <Fade>
+        <div className="flex justify-center gap-12 lg:flex-row flex-col pt-6">
+          <Brandcard
+            img={freya}
+            link={"/brands/freya"}
+            heading={"Max Styling Wax"}
+            subheading1={"Lorem ipsum"}
+            subheading2={"dolor sit amet"}
+          />
+        </div>
+      </Fade>
+
+      <Fade>
         <img src={brand_end} alt="img " className="mx-auto mt-16" />
       </Fade>
     </section>
