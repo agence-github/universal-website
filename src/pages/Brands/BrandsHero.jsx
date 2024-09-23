@@ -20,10 +20,7 @@ const BrandsHero = () => {
         >
           Our <p></p>Brands
           <p className="text-2xl font-sans pt-4 w-[700px] hidden lg:block">
-            At Universal Distributor LLC, we are excited to showcase a wide
-            variety of product lines that span a variety of lifestyles and
-            choices. Our ranges are handpicked to ensure that you get the right
-            quality, value, and innovations.
+          At Universal Distribution LLC, we are excited to showcase a wide variety of product lines that span a variety of lifestyles and choices. Our ranges are handpicked to ensure that you get the right quality, value, and innovations.
           </p>
         </motion.h1>
       </div>

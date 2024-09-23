@@ -61,13 +61,7 @@ const BecomeDistributor = () => {
             variants={itemVariants}
             className="text-black/60 text-lg lg:text-xl font-sans lg:w-4/5 mt-5 leading-relaxed text-center lg:text-left lg:pl-20"
           >
-            Become a part of our preferred distributor network and get the most
-            out of partnering with Universal Distributor LLC. As a distributor,
-            you will get the opportunity to work with many top brands we have on
-            our product list; you will be offered the best price, and our team
-            will provide you with the necessary assistance of our experienced
-            team. Our focus on the “Purely Personal” service, we're all set to
-            be your stepping stone to success.
+            Become a part of our preferred distributor network and get the most out of partnering with Universal Distribution LLC. As a distributor, you will get the opportunity to work with many top brands we have on our product list; you will be offered the best price, and our team will provide you with the necessary assistance of our experienced team. Our focus on the “Purely Personal” service, we're all set to be your stepping stone to success.
           </motion.p>
 
           <motion.div

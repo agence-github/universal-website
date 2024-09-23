@@ -55,13 +55,7 @@ const AboutSection = () => {
             }}
             viewport={{ once: false, amount: 0.3 }}
           >
-            At Universal Distributor LLC, we seek to provide our partners with
-            the best quality products. These precautionary measures guarantee
-            the company that all its products are of high quality standard. This
-            focus captures the whole supply chain process, from purchasing to
-            distribution, as we strive to provide the best quality. We promise
-            to deliver your customers with products that will not only work but
-            also are safe and are of high quality.
+            At Universal Distribution LLC, we seek to provide our partners with the best quality products. These precautionary measures guarantee the company that all its products are of high quality standard. This focus captures the whole supply chain process, from purchasing to distribution, as we strive to provide the best quality. We promise to deliver your customers with products that will not only work but also are safe and are of high quality.
           </motion.p>
         </div>
       </motion.div>

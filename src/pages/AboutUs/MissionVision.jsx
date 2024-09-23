@@ -15,15 +15,7 @@ const MissionVision = () => {
           </Slide>
           <Fade>
             <div className=" text-black lg:text-xl mt-0 tracking-normal font-medium lg:mr-14">
-              At Universal Distributor LLC, we are not only a company that
-              offers supply chain management solutions; we are your progress
-              team. The major goal of our company is to provide businesses with
-              relevant services. These key principles of our strategy are faith
-              in partnership and the focus on the individual approach. It’s for
-              this reason that we ensure we make every effort to deliver a
-              perfect distribution channel experience. Universal Distributor LLC
-              is not about supplying; it’s about moving your business to the
-              next level.
+            At Universal Distribution LLC, we are not only a company that offers supply chain management solutions; we are your progress team. The major goal of our company is to provide businesses with relevant services. These key principles of our strategy are faith in partnership and the focus on the individual approach. It’s for this reason that we ensure we make every effort to deliver a perfect distribution channel experience. Universal Distribution LLC is not about supplying; it’s about moving your business to the next level.
             </div>
           </Fade>
         </div>
@@ -54,13 +46,7 @@ const MissionVision = () => {
           </Slide>
           <Fade>
             <div className=" text-black lg:text-xl mt-0 tracking-normal font-medium lg:text-end lg:ml-14">
-              The vision we strive for at the Universal Distributor LLC is to
-              identify strategic goals and navigate for commercial organisations
-              through creating optimal supply chains. Our vision is to be the
-              best distributor and well-admired company for the outstanding
-              performance with our partners. The vision is to help businesses
-              become all that they can be by offering a helping hand in the way
-              of tools and services.
+            The vision we strive for at the Universal Distribution LLC is to identify strategic goals and navigate for commercial organisations through creating optimal supply chains. Our vision is to be the best distributor and well-admired company for the outstanding performance with our partners. The vision is to help businesses become all that they can be by offering a helping hand in the way of tools and services.
             </div>
           </Fade>
         </div>

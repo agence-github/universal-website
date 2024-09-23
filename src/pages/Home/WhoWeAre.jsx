@@ -37,11 +37,7 @@ const WhoWeAre = () => {
           <Slide direction="up">
             {" "}
             <p className="text-gray-600 text-lg leading-relaxed mb-10 lg:w-3/4">
-              Universal Distributor LLC is your total distributor solution—we
-              don’t just supply products; we help you succeed. This is what we
-              call our “Better Living, Better Supply” approach, to serve you
-              best. We confidently step forward to become your preferred online
-              marketplace for all your customers’ requirements.
+            Universal Distribution LLC is your total distributor solution—we don’t just supply products; we help you succeed. This is what we call our “Better Living, Better Supply” approach, to serve you best. We confidently step forward to become your preferred online marketplace for all your customers’ requirements.
             </p>
           </Slide>
 

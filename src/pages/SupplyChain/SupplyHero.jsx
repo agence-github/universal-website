@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ReactPlayer from "react-player";
 import { Fade, Slide } from "react-awesome-reveal";
-import vdo from "/assets/video.mp4";
+import vdo from "/assets/supply.mp4";
 import Separator from "../../components/Separator";
 
 const SupplyHero = () => {

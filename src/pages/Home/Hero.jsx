@@ -66,11 +66,7 @@ const Hero = () => {
             className="lg:mt-5 mt-48 max-w-lg lg:ml-[500px] ml-auto"
           >
             <p className="text-gray-700 mb-4 lg:text-lg">
-              At Universal Distributor LLC, we are more than just a supply
-              distributor, we are your partners in progress. We strive to offer
-              the best quality products, services, and distribution. Get the
-              taste of partnering with a distributor that understands your
-              business.
+            At Universal Distribution LLC, we are more than just a supply distributor, we are your partners in progress. We strive to offer the best quality products, services, and distribution. Get the taste of partnering with a distributor that understands your business.
             </p>
             <WaveButton text={"Read more"} />
           </motion.div>

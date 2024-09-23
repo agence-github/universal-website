@@ -25,10 +25,7 @@ const WorkTogether = () => {
       </div>
 
       <Fade className="text-center lg:px-40 lg:text-xl px-10 text-sm">
-        Are you ready to level up your business? Be one of our satisfied
-        distributors and feel the essence of Universal Distributor LLC. This is
-        a call to create a synergy that would yield productivity and
-        achievements.
+      Are you ready to level up your business? Be one of our satisfied distributors and feel the essence of Universal Distribution LLC. This is a call to create a synergy that would yield productivity and achievements.
       </Fade>
 
       <div className="flex justify-center py-6">
