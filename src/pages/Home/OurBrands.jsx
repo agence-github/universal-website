@@ -7,7 +7,7 @@ import care from "/assets/brand_logo/carelogo.webp"
 import maxcleanlogo from "/assets/brand_logo/maxcleanlogo.svg"
 import maxstyle from "/assets/brand_logo/maxstylinggellogo.svg"
 import skino from "/assets/brand_logo/skinologo.svg"
-import gel from "/assets/brand_logo/maxstylinggellogo.svg"
+import gel from "/assets/brand_logo/maxstylelogo.svg"
 
 const OurBrands = () => {
   return (

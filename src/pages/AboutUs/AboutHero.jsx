@@ -40,7 +40,7 @@ const AboutHero = () => {
           As qualifying market-savvy professionals with a profound love of the
           luxurious, we showcase outstanding brands to the most selective
           consumers. This is why we work under the Purely Personal policy—we are
-          committed to offering services that will best fit your requirements.
+          committed to offering products that will best fit your requirements.
         </div>
       </Fade>
     </section>
