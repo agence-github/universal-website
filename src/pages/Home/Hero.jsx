@@ -25,7 +25,7 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-6xl sm:text-7xl lg:text-[160px] md:text-[120px] text-center text-[#C49E5F] lg:tracking-wider relative z-10 top-3 cinzel-font lg:top-4"
         >
-          Lorem Ipsum
+          Truly Yours
         </motion.h1>
 
         <div className="relative top-8 lg:-top-12">
