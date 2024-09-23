@@ -20,7 +20,10 @@ const Sustainability = () => {
 
       <Fade>
         <div className="text-center lg:px-20 text-sm px-8 py-5 lg:pt-0 lg:text-xl">
-        Universal Distributor LLC is committed to minimizing our environmental impact and promoting sustainable practices throughout our operations. We strive to add eco-friendly practices in production and supply chain, reduce waste, and support initiatives that protect our planet.
+          Universal Distributor LLC is committed to minimising our environmental
+          impact and promoting sustainable practices throughout our operations.
+          We strive to add eco-friendly practices in production and supply
+          chain, reduce waste, and support initiatives that protect our planet.
         </div>
       </Fade>
 

@@ -15,14 +15,15 @@ const MissionVision = () => {
           </Slide>
           <Fade>
             <div className=" text-black lg:text-xl mt-0 tracking-normal font-medium lg:mr-14">
-              We at the Universal Distributor LLC would like to help people feel
-              good about themselves and their unique beauties. Our great
-              products come through Luv, Care, and Freya to help make life's
-              simple self-care better. We partner with distributors throughout
-              the world to help create a culture wherein people love and believe
-              in themselves. Core in our mission is to inspire and lift the
-              masses up with new, useful, and affordable ways to take care of
-              one's self.
+              At Universal Distributor LLC, we are not only a company that
+              offers supply chain management solutions; we are your progress
+              team. The major goal of our company is to provide businesses with
+              relevant services. These key principles of our strategy are faith
+              in partnership and the focus on the individual approach. It’s for
+              this reason that we ensure we make every effort to deliver a
+              perfect distribution channel experience. Universal Distributor LLC
+              is not about supplying; it’s about moving your business to the
+              next level.
             </div>
           </Fade>
         </div>
@@ -53,12 +54,13 @@ const MissionVision = () => {
           </Slide>
           <Fade>
             <div className=" text-black lg:text-xl mt-0 tracking-normal font-medium lg:text-end lg:ml-14">
-              At Universal Distributor LLC, we are committed to a future where
-              self-care is truly within reach. We are the leading provider of
-              top-of-the-line personal care products. We partner with other
-              amazing brands like Luv, Care, and Freya to spread the message of
-              empowering people through self-love. Creating confidence through
-              our products, one accessory at a time.
+              The vision we strive for at the Universal Distributor LLC is to
+              identify strategic goals and navigate for commercial organisations
+              through creating optimal supply chains. Our vision is to be the
+              best distributor and well-admired company for the outstanding
+              performance with our partners. The vision is to help businesses
+              become all that they can be by offering a helping hand in the way
+              of tools and services.
             </div>
           </Fade>
         </div>

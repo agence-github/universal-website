@@ -66,11 +66,11 @@ const Hero = () => {
             className="lg:mt-5 mt-48 max-w-lg lg:ml-[500px] ml-auto"
           >
             <p className="text-gray-700 mb-4 lg:text-lg">
-              From the refreshing and invigorating feel of LUV, to the confident
-              smile of CARE, and to the luxurious feel of FREYA. Universal
-              Distributor LLC is a company that houses three distinct brands. We
-              have you covered to feel good, clean and refreshed anytime,
-              anywhere.
+              At Universal Distributor LLC, we are more than just a supply
+              distributor, we are your partners in progress. We strive to offer
+              the best quality products, services, and distribution. Get the
+              taste of partnering with a distributor that understands your
+              business.
             </p>
             <WaveButton text={"Read more"} />
           </motion.div>

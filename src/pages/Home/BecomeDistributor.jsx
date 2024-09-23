@@ -61,13 +61,13 @@ const BecomeDistributor = () => {
             variants={itemVariants}
             className="text-black/60 text-lg lg:text-xl font-sans lg:w-4/5 mt-5 leading-relaxed text-center lg:text-left lg:pl-20"
           >
-            Unlock a world of opportunity by becoming a valued member of our
-            growing distributor network. By joining Universal Distributor LLC as
-            a distributing partner, you will be able to distribute our
-            high-quality, in-demand brands: Luv, Care, and Freya. With our
-            excellent pricing, great customer service, supplies, and marketing
-            support, we can work together to provide self-care options for each
-            and all.
+            Become a part of our preferred distributor network and get the most
+            out of partnering with Universal Distributor LLC. As a distributor,
+            you will get the opportunity to work with many top brands we have on
+            our product list; you will be offered the best price, and our team
+            will provide you with the necessary assistance of our experienced
+            team. Our focus on the “Purely Personal” service, we're all set to
+            be your stepping stone to success.
           </motion.p>
 
           <motion.div

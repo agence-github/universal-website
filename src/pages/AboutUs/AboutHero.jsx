@@ -37,11 +37,10 @@ const AboutHero = () => {
 
       <Fade>
         <div className="text-center lg:px-20 text-sm px-8 pt-8 lg:pt-0 lg:text-xl">
-          Explore an open position with Universal Distributor LLC and get
-          wellness and entrepreneurship experience along the way! We're always
-          appealing to talented people who love self-care and brand building. If
-          you're driven, creative, and ready to make a positive change.
-          Then contact us!
+          As qualifying market-savvy professionals with a profound love of the
+          luxurious, we showcase outstanding brands to the most selective
+          consumers. This is why we work under the Purely Personal policy—we are
+          committed to offering services that will best fit your requirements.
         </div>
       </Fade>
     </section>

@@ -25,10 +25,10 @@ const WorkTogether = () => {
       </div>
 
       <Fade className="text-center lg:px-40 lg:text-xl px-10 text-sm">
-        Explore an open position with Universal Distributor LLC and get wellness
-        and entrepreneurship experience along the way! We're always appealing to
-        talented people who love self-care and brand building. If you're driven,
-        creative, and ready to make a positive change. Then contact us!
+        Are you ready to level up your business? Be one of our satisfied
+        distributors and feel the essence of Universal Distributor LLC. This is
+        a call to create a synergy that would yield productivity and
+        achievements.
       </Fade>
 
       <div className="flex justify-center py-6">

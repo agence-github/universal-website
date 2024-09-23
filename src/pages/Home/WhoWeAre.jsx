@@ -37,11 +37,11 @@ const WhoWeAre = () => {
           <Slide direction="up">
             {" "}
             <p className="text-gray-600 text-lg leading-relaxed mb-10 lg:w-3/4">
-              Our company transcends the definition of mere distributorship; we
-              also act as a brand incubator. Our brand portfolio, which includes
-              Luv, Care, and Freya, has a full product range, including daily
-              essentials, indulgent treats, and everything useful in between for
-              any lifestyle.
+              Universal Distributor LLC is your total distributor solution—we
+              don’t just supply products; we help you succeed. This is what we
+              call our “Better Living, Better Supply” approach, to serve you
+              best. We confidently step forward to become your preferred online
+              marketplace for all your customers’ requirements.
             </p>
           </Slide>
 

@@ -19,8 +19,12 @@ const BrandsHero = () => {
           className="text-5xl sm:text-7xl lg:text-[120px] text-left text-white lg:tracking-wider absolute top-[25%] lg:left-10 left-4 z-10 cinzel-font"
         >
           Our <p></p>Brands
-
-          <p className="text-2xl font-sans pt-4 w-[700px] hidden lg:block">Discover our family of exceptional brands: Luv, Care, and Freya. Each brand offers a range of products specifically designed to enhance the quality of your daily life. From oral care to personal hygiene, our brands are committed to quality, innovation, and your well-being.</p>
+          <p className="text-2xl font-sans pt-4 w-[700px] hidden lg:block">
+            At Universal Distributor LLC, we are excited to showcase a wide
+            variety of product lines that span a variety of lifestyles and
+            choices. Our ranges are handpicked to ensure that you get the right
+            quality, value, and innovations.
+          </p>
         </motion.h1>
       </div>
     </section>

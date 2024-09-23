@@ -55,16 +55,13 @@ const AboutSection = () => {
             }}
             viewport={{ once: false, amount: 0.3 }}
           >
-            Universal Distributor LLC offers unique Luv, Care, and Freya brands
-            for each of these. Our portfolio of products serves a wide range of
-            consumer needs and tastes-from Oral Care Accessories to Personal
-            Care Products, among others. As part of its initiative to ensure the
-            success of its associates, full marketing and promotional support is
-            given to each of the brands to drive improved sales and build brand
-            equity. Plus, competitive rates and terms to help you improve your
-            bottom line. We're a loyal partner-we're here to help craft just the
-            right consistent experience that moves your business forward
-            and takes it there.
+            At Universal Distributor LLC, we seek to provide our partners with
+            the best quality products. These precautionary measures guarantee
+            the company that all its products are of high quality standard. This
+            focus captures the whole supply chain process, from purchasing to
+            distribution, as we strive to provide the best quality. We promise
+            to deliver your customers with products that will not only work but
+            also are safe and are of high quality.
           </motion.p>
         </div>
       </motion.div>
