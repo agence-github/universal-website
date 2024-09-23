@@ -12,7 +12,7 @@ const OurBrands = () => {
         direction="right"
         className="text-center lg:text-xl text-lg uppercase tracking-wider text-gray-500"
       >
-        Lorem ipsum dolor sit amet.
+        WE CRAFT YOUR RELIANCE
       </Slide>
 
       <div className="flex justify-center gap-12 lg:gap-40 flex-col lg:flex-row items-center py-10 md:gap-28">

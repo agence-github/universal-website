@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react";
 import { motion } from "framer-motion";
-import supplier from "/assets/supplier_network.webp"
+import supplier from "/assets/supplier_network.webp";
 
 const SupplierNetwork = () => {
   return (
@@ -19,12 +19,16 @@ const SupplierNetwork = () => {
           className="text-5xl lg:text-7xl text-left text-white lg:tracking-wider absolute top-[35%] lg:left-10 left-4 z-10 cinzel-font"
         >
           supplier <p></p>Relationships
-
-          <p className="text-2xl font-sans pt-4 w-[700px] hidden lg:block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p className="text-2xl font-sans pt-4 w-[700px] hidden lg:block">
+            We value our strong partnerships with local suppliers and prioritize
+            quality control through close monitoring of their operations. This
+            ensures that we consistently deliver high-quality
+            products and services.
+          </p>
         </motion.h1>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default SupplierNetwork
+export default SupplierNetwork;

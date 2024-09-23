@@ -24,8 +24,8 @@ const ProductImg = () => {
     <section className="lg:py-12 py-8">
       <Fade>
         <div className="text-[#C49E5F] lg:text-6xl md:text-4xl text-4xl cinzel-font lg:mb-10 lg:mt-8 uppercase text-center">
-          lorem ipsum dolo
-          <p className="pt-2">amet consecture</p>
+          WE DELIVER AN
+          <p className="pt-2">ELEVATED LIFESTYLE.</p>
         </div>
       </Fade>
 
@@ -77,19 +77,39 @@ const ProductImg = () => {
       <div className="my-16 lg:hidden">
         <Slider {...sliderSettings}>
           <div className="px-4">
-            <img src={abtImg5} alt="img" className="mx-auto h-[300px] object-cover" />
+            <img
+              src={abtImg5}
+              alt="img"
+              className="mx-auto h-[300px] object-cover"
+            />
           </div>
           <div className="px-4">
-            <img src={abtImg4} alt="img" className="mx-auto h-[300px] object-cover" />
+            <img
+              src={abtImg4}
+              alt="img"
+              className="mx-auto h-[300px] object-cover"
+            />
           </div>
           <div className="px-4">
-            <img src={abtImg1} alt="img" className="mx-auto h-[300px] object-cover" />
+            <img
+              src={abtImg1}
+              alt="img"
+              className="mx-auto h-[300px] object-cover"
+            />
           </div>
           <div className="px-4">
-            <img src={abtImg3} alt="img" className="mx-auto h-[300px] object-cover" />
+            <img
+              src={abtImg3}
+              alt="img"
+              className="mx-auto h-[300px] object-cover"
+            />
           </div>
           <div className="px-4">
-            <img src={abtImg2} alt="img" className="mx-auto h-[300px] object-cover" />
+            <img
+              src={abtImg2}
+              alt="img"
+              className="mx-auto h-[300px] object-cover"
+            />
           </div>
         </Slider>
       </div>

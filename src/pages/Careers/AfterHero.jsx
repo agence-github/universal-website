@@ -15,8 +15,8 @@ const Afterhero = () => {
       >
         <div className="lg:w-2/3">
           <div className="text-[#C49E5F] lg:text-7xl text-5xl cinzel-font my-6 text-center lg:text-left">
-            Lorem ipsum
-            <p className="pt-2">dolor Amit</p>
+          CRAFT YOUR 
+            <p className="pt-2">FUTURE WITH US</p>
           </div>
           <div className="text-black lg:text-xl text-center lg:text-left px-10 lg:px-0 mt-0 tracking-normal font-medium">
             Ease yourself into adopting a satisfying career with Universal

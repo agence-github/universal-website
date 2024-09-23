@@ -25,7 +25,7 @@ const AboutSection = () => {
             }}
             viewport={{ once: false, amount: 0.3 }}
           >
-            LOREM IPSUM
+            QUALITY ASSURED
           </motion.h1>
 
           <motion.p
@@ -40,7 +40,7 @@ const AboutSection = () => {
             }}
             viewport={{ once: false, amount: 0.3 }}
           >
-            lorem ipsum
+            Always
           </motion.p>
 
           <motion.p

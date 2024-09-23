@@ -16,7 +16,7 @@ const Hero = () => {
           transition={{ duration: 0.5 }}
           className="text-center lg:text-xl text-lg uppercase tracking-wider text-gray-500"
         >
-          Lorem ipsum dolor sit amet.
+          BETTER LIVING, BETTER SUPPLY
         </motion.h2>
 
         <motion.h1

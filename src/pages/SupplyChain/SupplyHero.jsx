@@ -19,9 +19,8 @@ const SupplyHero = () => {
 
       <Fade>
         <div className="text-center lg:px-36 text-sm px-8 pt-2 lg:pt-0 lg:text-xl">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation
+          Our global reach ensures a reliable supply chain and access to our
+          premium products, both domestically and internationally.
         </div>
       </Fade>
 
