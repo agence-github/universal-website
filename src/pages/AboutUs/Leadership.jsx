@@ -8,7 +8,7 @@ const Leadership = () => {
     <section className="lg:py-12 py-6">
       <Fade>
         <div className="text-[#C49E5F] lg:text-8xl md:text-5xl text-4xl cinzel-font lg:mb-10 lg:mt-8 uppercase text-center">
-          Our Leadeship
+          Our Leadership
         </div>
       </Fade>
 
