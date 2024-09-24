@@ -2,6 +2,9 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Fade, Slide } from "react-awesome-reveal";
 import EmployeeBenefits from "../../components/EmployeeBenefits";
+import { TbTargetArrow } from "react-icons/tb";
+import { BsSuitcaseLg } from "react-icons/bs";
+import { TbHearts } from "react-icons/tb";
 
 const MorethanJob = () => {
   return (
@@ -28,6 +31,7 @@ const MorethanJob = () => {
               " We see to it that our employees grow as the company. We let our employees be a part of engaging activities include various training programs, workshops and mentorship to build on the skills a worker possesses to enable them to grow professionally."
             }
             heading={"Professional Growth Opportunities"}
+            icon={<TbTargetArrow />}
           />
         </Slide>
         <Slide direction="down">
@@ -36,6 +40,7 @@ const MorethanJob = () => {
               " We respect family life hence forth we believe in work –life balance. We have flexible working conditions to meet the personal needs and interests of the employees."
             }
             heading={"Flexible Work Arrangements"}
+            icon={<BsSuitcaseLg />}
           />
         </Slide>
         <Slide direction="right">
@@ -44,6 +49,7 @@ const MorethanJob = () => {
               " These core values are in our foundation and educate our employees on the trends and processes such as teamwork, innovation, and socioeconomic responsibility. Companies focus on inclusion and acceptance of various cultures people work with and seek to achieve a proper work-life harmony."
             }
             heading={"Culture and Values"}
+            icon={<TbHearts />}
           />
         </Slide>
       </div>

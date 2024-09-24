@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import aboyimg from "/assets/aboutimg.webp";
+import aboyimg from "/assets/transport.svg";
 
 const Transport = () => {
   return (
