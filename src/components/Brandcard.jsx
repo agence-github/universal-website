@@ -13,7 +13,7 @@ const Brandcard = ({ img, heading, subheading1, subheading2, link }) => {
 
         <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-20 transition-opacity duration-300 ease-in-out"></div>
 
-        <div className="text-6xl text-left text-white lg:tracking-wider absolute top-[12%] left-5 z-10 cinzel-font transition-all duration-300 ease-in-out group-hover:translate-x-2">
+        <div className="text-5xl text-left text-white lg:tracking-wider absolute top-[12%] left-5 z-10 cinzel-font transition-all duration-300 ease-in-out group-hover:translate-x-2">
           {heading}
           <p className="text-lg font-sans pt-1 transition-all duration-300 ease-in-out opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0">
             {subheading1} <p>{subheading2}</p>

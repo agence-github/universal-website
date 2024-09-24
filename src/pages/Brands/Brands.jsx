@@ -4,6 +4,11 @@ import Brandcard from "../../components/Brandcard";
 import freya from "/assets/freya.webp";
 import luv from "/assets/luv.webp";
 import care from "/assets/care.webp";
+import skino from "/assets/skinoo.webp";
+import mxgl from "/assets/mxgl.webp";
+import mxcl from "/assets/mxcl.webp";
+import mxwx from "/assets/mxwx.webp";
+
 import brand_end from "/assets/brand_end.webp"
 
 const Brands = () => {
@@ -19,22 +24,22 @@ const Brands = () => {
             img={freya}
             link={"/brands/freya"}
             heading={"Freya"}
-            subheading1={"Lorem ipsum"}
-            subheading2={"dolor sit amet"}
+            subheading1={"Discover the"}
+            subheading2={"Exciting range"}
           />
           <Brandcard
             img={luv}
             link={"/brands/luv"}
             heading={"Luv"}
-            subheading1={"Lorem ipsum"}
-            subheading2={"dolor sit amet"}
+            subheading1={"Discover the"}
+            subheading2={"Exciting range"}
           />
           <Brandcard
             img={care}
             link={"/brands/care"}
             heading={"Care"}
-            subheading1={"Lorem ipsum"}
-            subheading2={"dolor sit amet"}
+            subheading1={"Discover the"}
+            subheading2={"Exciting range"}
           />
         </div>
       </Fade>
@@ -42,25 +47,25 @@ const Brands = () => {
       <Fade>
         <div className="flex justify-center gap-12 lg:flex-row flex-col pt-6">
           <Brandcard
-            img={freya}
-            link={"/brands/freya"}
+            img={skino}
+            link={"/brands/skino"}
             heading={"Skino"}
-            subheading1={"Lorem ipsum"}
-            subheading2={"dolor sit amet"}
+            subheading1={"Discover the"}
+            subheading2={"Exciting range"}
           />
           <Brandcard
-            img={luv}
-            link={"/brands/luv"}
+            img={mxgl}
+            link={"/brands/max-styling-gel"}
             heading={"Max Styling Gel"}
-            subheading1={"Lorem ipsum"}
-            subheading2={"dolor sit amet"}
+            subheading1={"Discover the"}
+            subheading2={"Exciting range"}
           />
           <Brandcard
-            img={care}
-            link={"/brands/care"}
-            heading={"Max Cleaning Gel"}
-            subheading1={"Lorem ipsum"}
-            subheading2={"dolor sit amet"}
+            img={mxcl}
+            link={"/brands/max-cleaning"}
+            heading={"Max Cleaning"}
+            subheading1={"Discover the"}
+            subheading2={"Exciting range"}
           />
         </div>
       </Fade>
@@ -68,11 +73,11 @@ const Brands = () => {
       <Fade>
         <div className="flex justify-center gap-12 lg:flex-row flex-col pt-6">
           <Brandcard
-            img={freya}
-            link={"/brands/freya"}
+            img={mxwx}
+            link={"/brands/max-styling-wax"}
             heading={"Max Styling Wax"}
-            subheading1={"Lorem ipsum"}
-            subheading2={"dolor sit amet"}
+            subheading1={"Discover the"}
+            subheading2={"Exciting range"}
           />
         </div>
       </Fade>

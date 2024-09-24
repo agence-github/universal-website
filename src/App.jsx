@@ -48,7 +48,7 @@ export default function App() {
                 <Route path="/distributor" element={<DistributerPage />} />
                 <Route path="/careers" element={<CareersPage />} />
                 <Route path="/contact" element={<ContactUsPage />} />
-                <Route path="/supply-chain" element={<SupplyChainpage />}/>
+                {/* <Route path="/supply-chain" element={<SupplyChainpage />}/> */}
               </Routes>
             </Wrapper>
           </BrowserRouter>
