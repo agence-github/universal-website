@@ -17,9 +17,7 @@ const WhereToFind = () => {
               Address
             </h1>
             <div className="text-black text-xl mt-0 tracking-normal font-medium text-center lg:text-left px-8 lg:px-0">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco l
+              P.O. Box: 624654| Jebel Ali Industrial Area - 1 | Dubai, UAE.
             </div>
 
             <h1 className="text-black text-xl mb-3 lg:w-2/3 mt-2 tracking-normal font-semibold text-center lg:text-left">
@@ -33,7 +31,7 @@ const WhereToFind = () => {
               Email
             </h1>
             <div className="text-black text-xl lg:w-2/3 mt-0 tracking-normal font-medium text-center lg:text-left">
-              Email@email.com
+              udl@gmail.com
             </div>
           </div>
 

@@ -19,8 +19,11 @@ const SupplyHero = () => {
 
       <Fade>
         <div className="text-center lg:px-36 text-sm px-8 pt-2 lg:pt-0 lg:text-xl">
-          Our global reach ensures a reliable supply chain and access to our
-          premium products, both domestically and internationally.
+          Our international presence guarantees continuity of supply chain and
+          provide customers with our manufactured premium products. We’re not
+          just global but we are local as well, we’ve got you covered whether
+          you are in your local market or you plan on exporting your products to
+          different countries
         </div>
       </Fade>
 

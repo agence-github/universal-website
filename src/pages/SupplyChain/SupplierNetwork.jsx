@@ -20,10 +20,11 @@ const SupplierNetwork = () => {
         >
           supplier <p></p>Relationships
           <p className="text-2xl font-sans pt-4 w-[700px] hidden lg:block">
-            We value our strong partnerships with local suppliers and prioritize
-            quality control through close monitoring of their operations. This
-            ensures that we consistently deliver high-quality
-            products and services.
+            We appreciate the good working relationships we have with our
+            suppliers and ensure that we will continue to support our suppliers
+            with an aim of cultivating mutual and strategic partnership. Our
+            suppliers are local hence we can easily monitor their operations
+            with an aim of delivering high quality products and services.
           </p>
         </motion.h1>
       </div>

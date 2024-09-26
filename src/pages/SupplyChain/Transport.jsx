@@ -55,16 +55,18 @@ const Transport = () => {
             }}
             viewport={{ once: false, amount: 0.3 }}
           >
-            Universal Distributor LLC offers unique Luv, Care, and Freya brands
-            for each of these. Our portfolio of products serves a wide range of
-            consumer needs and tastes-from Oral Care Accessories to Personal
-            Care Products, among others. As part of its initiative to ensure the
-            success of its associates, full marketing and promotional support is
-            given to each of the brands to drive improved sales and build brand
-            equity. Plus, competitive rates and terms to help you improve your
-            bottom line. We're a loyal partner-we're here to help craft just the
-            right consistent experience that moves your business forward
-            and takes it there.
+            Universal Distributor LLC aims at providing an efficient and
+            reliable distribution to its customers regardless of the country
+            that they reside. We have logistics and transportation systems that
+            we put in place to enhance timely delivery of goods and services
+            with minimal interruptions. With our devotion in obtaining prime raw
+            materials and managing an effective calendar of delivery from
+            manufacturers to distributors in both local and international
+            markets our company only collaborates with reliable partners. Due to
+            our elaborate transport networks and tracking technologies we can
+            track all deliveries and provide a schedule delivery estimate. This
+            commitment of excellence makes it possible for our clients to get
+            their orders delivered as per the required time line each time.
           </motion.p>
         </div>
       </motion.div>
@@ -78,7 +80,7 @@ const Transport = () => {
         viewport={{ once: false, amount: 0.3 }}
       />
     </section>
-  )
-}
+  );
+};
 
-export default Transport
+export default Transport;

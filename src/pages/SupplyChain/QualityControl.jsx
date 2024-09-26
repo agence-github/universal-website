@@ -14,25 +14,25 @@ const QualityControl = () => {
         <Slide direction="left">
           <QualityCard
             text={
-              "We see to it that our employees grow as the company. We let our employees be a part of engaging activities include various training programs, workshops and mentorship to build on the skills a worker possesses to enable them to grow professionally."
+              "Corporate governance in our supply chain is informed by best practices that are at par with industry best practices. Our quality assurance is carried out systematically, and all the company’s products pass through the quality checks from the procurement of raw materials to the end products."
             }
-            heading={"Professional Growth Opportunities"}
+            heading={"Stringent Quality Standards"}
           />
         </Slide>
         <Slide direction="down">
           <QualityCard
             text={
-              " We respect family life hence forth we believe in work –life balance. We have flexible working conditions to meet the personal needs and interests of the employees."
+              " In this regard, we have our quality control personnel who inspect and test all incoming raw material and final products. This you ensure that the products that you are offering meet the set quality standards and do not have major or minor defects."
             }
-            heading={"Flexible Work Arrangements"}
+            heading={"In-House Quality Control"}
           />
         </Slide>
         <Slide direction="right">
           <QualityCard
             text={
-              " These core values are in our foundation and educate our employees on the trends and processes such as teamwork, innovation, and socioeconomic responsibility. Companies focus on inclusion and acceptance of various cultures people work with and seek to achieve a proper work-life harmony."
+              " We firmly believe that the quality control does not end with the manufacturing of our products but it is a never-ending process. The quality of products is constantly observed and improved according to trends to make sure that the products quality is above customer expectations."
             }
-            heading={"Culture and Values"}
+            heading={"Continuous Improvement"}
           />
         </Slide>
       </div>

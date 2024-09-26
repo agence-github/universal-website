@@ -15,9 +15,9 @@ const SupplyChainpage = () => {
         <SupplyHero />
       </section>
 
-      <section>
+      {/* <section>
         <DistributionCenter />
-      </section>
+      </section> */}
 
       <section>
         <Transport />
