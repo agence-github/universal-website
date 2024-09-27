@@ -40,7 +40,7 @@ const Leadership = () => {
         /> */}
         <LeaderComponent
           img={leader}
-          name={"Siddhart Gupta"}
+          name={"Siddhartha Gupta"}
           position={"(Head Sales Marketing)"}
         />
       </div>

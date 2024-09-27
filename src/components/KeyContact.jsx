@@ -9,10 +9,10 @@ const KeyContact = () => {
 
       <div className="text-center">
         <h1 className="text-2xl lg:text-4xl cinzel-font mb-3">SIDDHARTHA GUPTA</h1>
-        <h1 className="lg:text-xl mb-2">(Head Sales Marketing)</h1>
+        <h1 className="lg:text-xl mb-2">(Head Sales & Marketing)</h1>
         <h1 className="lg:text-xl mb-2">Email - gupta.s@udllcdxb.com</h1>
-        <h1 className="lg:text-xl mb-2">+971 50 940 0443 (UAE)</h1>
-        <h1 className="lg:text-xl mb-2">+91 98303 46468 (INDIA)</h1>
+        <h1 className="lg:text-xl mb-2">Mobile - +971 50 940 0443 (UAE)</h1>
+        <h1 className="lg:text-xl mb-2">Mobile - +91 98303 46468 (INDIA)</h1>
       </div>
     </div>
   );
