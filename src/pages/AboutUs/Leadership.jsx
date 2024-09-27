@@ -41,7 +41,7 @@ const Leadership = () => {
         <LeaderComponent
           img={leader}
           name={"Siddhartha Gupta"}
-          position={"(Head Sales Marketing)"}
+          position={"(Head - Sales & Marketing)"}
         />
       </div>
     </section>
