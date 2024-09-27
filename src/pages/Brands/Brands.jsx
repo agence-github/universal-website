@@ -83,7 +83,7 @@ const Brands = () => {
       </Fade>
 
       <Fade>
-        <img src={brand_end} alt="img " className="mx-auto mt-16" />
+        <img src={brand_end} alt="img " className="mx-auto mt-16 px-6" />
       </Fade>
     </section>
   );
