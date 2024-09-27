@@ -11,7 +11,7 @@ function DistributorHome() {
           
           <div className="lg:w-1/2 text-center lg:text-left">
             <h1 className="lg:text-8xl text-4xl cinzel-font  text-[#C49E5F] my-2">
-            ELEVATE YOUR BUSINESS WITH UNIVERSAL DISTRIBUTOR LLC  
+            ELEVATE YOUR BUSINESS WITH UNIVERSAL DISTRIBUTION LLC  
             </h1>
             <p className="text-lg text-gray-600 mb-4 lg:w-[90%]">
             Become a distributing partner with Universal Distributor LLC and open the door to endless possibilities. You will join an ever-growing family of successful distributors while having access to our great brands at competitive prices and receive first-class support.  

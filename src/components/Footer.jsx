@@ -40,6 +40,9 @@ const Footer = () => {
         { text: "Freya", link: "#" },
         { text: "Love", link: "#" },
         { text: "Care", link: "#" },
+        { text: "Skino", link: "#" },
+        { text: "Max Cleaning", link: "#" },
+        { text: "Max STyling Wax", link: "#" },
       ],
     },
     {
