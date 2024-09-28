@@ -1,8 +1,8 @@
 import React from "react";
-import image2 from "/assets/image2.webp";
-import image1 from "/assets/image1.webp";
+import image2 from "/assets/image2.svg";
+import image1 from "/assets/image1.svg";
 import imagegrp from "/assets/imagegrp.webp";
-import image3 from "/assets/image3.webp";
+import image3 from "/assets/image3.svg";
 import { Fade, Slide } from "react-awesome-reveal";
 
 const WhoWeAre = () => {
@@ -50,7 +50,7 @@ const WhoWeAre = () => {
 
             <Fade>
               <div className="absolute bottom-[-40%] right-[18%] lg:right-[15%] w-[50%] lg:w-[50%]">
-                <img src={image2} alt="" className="object-cover shadow-lg" />
+                <img src={image2} alt="" className="object-cover" />
               </div>
             </Fade>
           </div>

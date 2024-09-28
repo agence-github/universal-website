@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Slide } from "react-awesome-reveal";
 import Separator from "../../components/Separator";
 import hero_one from "/assets/hero_one.webp";
-import hero_two from "/assets/hero_two.webp";
+import hero_two from "/assets/hero_two.svg";
 import WaveButton from "../../components/WaveButton";
 
 const Hero = () => {
@@ -52,7 +52,7 @@ const Hero = () => {
             <img
               src={hero_two}
               alt="Serum bottle"
-              className="shadow-lg"
+              className=""
               loading="lazy"
             />
           </motion.div>
