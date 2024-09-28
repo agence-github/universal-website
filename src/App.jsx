@@ -14,6 +14,8 @@ import ContactUsPage from "./pages/ContactUs/ContactUsPage";
 import { useEffect, useLayoutEffect, useState } from "react";
 import Loader from "./components/Loader";
 import SupplyChainpage from "./pages/SupplyChain/SupplyChainpage";
+import Freya from "./pages/Freya/Freya";
+import Care from "./pages/Care/Care";
 
 export default function App() {
   const [screenLoading, setScreenLoading] = useState(false);
@@ -49,6 +51,8 @@ export default function App() {
                 <Route path="/careers" element={<CareersPage />} />
                 <Route path="/contact" element={<ContactUsPage />} />
                 <Route path="/supply-chain" element={<SupplyChainpage />}/>
+                <Route path="/brands/freya" element={<Freya />} />
+                <Route path="/brands/care" element={<Care />}/>
               </Routes>
             </Wrapper>
           </BrowserRouter>
