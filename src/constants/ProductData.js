@@ -70,7 +70,7 @@ export const products = [
     {
       id: 12,
       name: 'Luv Lavender',
-      brand: 'Care',
+      brand: 'Luv',
       image: '/assets/brands/Luv/luv_lavender.png'
     },
     {
