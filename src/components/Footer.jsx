@@ -35,12 +35,12 @@ const Footer = () => {
     {
       title: "BRANDS",
       items: [
-        { text: "Freya", link: "#" },
-        { text: "Love", link: "#" },
-        { text: "Care", link: "#" },
-        { text: "Skino", link: "#" },
-        { text: "Max Cleaning", link: "#" },
-        { text: "Max Styling Wax", link: "#" },
+        { text: "Freya", link: "/brands/skino" },
+        { text: "Love", link: "/brands/skino" },
+        { text: "Care", link: "/brands/skino" },
+        { text: "Skino", link: "/brands/skino" },
+        { text: "Max Cleaning", link: "/brands/skino" },
+        { text: "Max Styling Wax", link: "/brands/skino" },
       ],
     },
     {

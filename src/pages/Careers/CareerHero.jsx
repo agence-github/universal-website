@@ -4,32 +4,21 @@ import { motion, AnimatePresence } from "framer-motion";
 import hero from "/assets/career_hero.webp";
 
 const jobTitles = [
-  "Job title",
-  "Software Engineer",
-  "Product Manager",
-  "Data Analyst",
-  "UX Designer",
-  "Marketing Specialist",
+  "Territory Sales Managers",
+  "Area Sales officer",
 ];
 
 // Dummy data for job listings
 const jobListings = [
   {
-    title: "Software Engineer",
-    location: "San Francisco",
-    link: "#software-engineer-sf",
+    title: "Territory Sales Managers",
+    location: "Dubai - UAE",
+    link: "",
   },
   {
-    title: "Product Manager",
-    location: "New York",
-    link: "#product-manager-ny",
-  },
-  { title: "Data Analyst", location: "Chicago", link: "#data-analyst-chicago" },
-  { title: "UX Designer", location: "Los Angeles", link: "#ux-designer-la" },
-  {
-    title: "Marketing Specialist",
-    location: "Boston",
-    link: "#marketing-specialist-boston",
+    title: "Area Sales officer",
+    location: "Dubai - UAE",
+    link: "",
   },
 ];
 
