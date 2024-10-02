@@ -9,7 +9,7 @@ import SupplierNetwork from "./SupplierNetwork";
 
 const SupplyChainpage = () => {
   return (
-    <main className="bg-[#FAF5EF]">
+    <main className="bg-[#FAF5EF] overflow-hidden">
       <Navbar />
       <section className="py-20">
         <SupplyHero />

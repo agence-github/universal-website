@@ -6,7 +6,7 @@ import Brands from "./Brands";
 
 function BrandsPage() {
   return (
-    <main className="bg-[#FAF5EF]">
+    <main className="bg-[#FAF5EF] overflow-hidden">
       <Navbar />
       <section>
         <BrandsHero />

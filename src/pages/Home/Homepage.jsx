@@ -9,7 +9,7 @@ import WorkTogether from "./WorkTogether";
 
 const Homepage = () => {
   return (
-    <main className="bg-[#FAF5EF]">
+    <main className="bg-[#FAF5EF] overflow-hidden">
       <Navbar />
       
       <div className="pt-20"> 

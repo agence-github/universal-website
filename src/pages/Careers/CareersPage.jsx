@@ -9,7 +9,7 @@ import Footer from "../../components/Footer";
 
 const CareersPage = () => {
   return (
-    <main className="bg-[#FAF5EF]">
+    <main className="bg-[#FAF5EF] overflow-hidden">
       <Navbar color={"text-white"} />
 
       <section>

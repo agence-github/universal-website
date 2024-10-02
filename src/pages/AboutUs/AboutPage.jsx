@@ -10,7 +10,7 @@ import Leadership from "./Leadership";
 
 const AboutPage = () => {
   return (
-    <main className="bg-[#FAF5EF]">
+    <main className="bg-[#FAF5EF] overflow-hidden">
       <Navbar />
 
       <section className= "pt-20">

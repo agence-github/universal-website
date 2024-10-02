@@ -9,7 +9,7 @@ import KeyContact from "../../components/KeyContact";
 
 function DistributerPage() {
   return (
-    <main className="bg-[#FAF5EF]">
+    <main className="bg-[#FAF5EF] overflow-hidden">
       <Navbar />
       <section className="lg:pt-12">
         <DistributorHome />
