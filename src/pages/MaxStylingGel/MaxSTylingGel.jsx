@@ -3,7 +3,7 @@ import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import BrandFilter from "../../components/BrandFilter";
 
-const Freya = () => {
+const MaxSTylingGel = () => {
   return (
     <main>
       <Navbar />
@@ -14,7 +14,7 @@ const Freya = () => {
       </section>
       <Footer />
     </main>
-  );
-};
+  )
+}
 
-export default Freya;
+export default MaxSTylingGel
