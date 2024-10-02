@@ -1,6 +1,7 @@
 import React from 'react';
 import distriHome from "/assets/distriHome.webp";
 import WaveButton from '../../components/WaveButton';
+import { Link } from 'react-router-dom';
 
 function DistributorHome() {
   return (
@@ -16,7 +17,7 @@ function DistributorHome() {
             <p className="text-lg text-gray-600 mb-4 lg:w-[90%]">
             Become a distributing partner with Universal Distributor LLC and open the door to endless possibilities. You will join an ever-growing family of successful distributors while having access to our great brands at competitive prices and receive first-class support.  
             </p>
-            <WaveButton text="Get in touch" />
+            <Link to="/contact"><WaveButton text="Get in touch" /></Link>
           </div>
 
           <div className="mt-8 lg:mt-0 lg:w-1/2">
