@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import imageForOurBrands from "/assets/imageForOurBrands.webp";
+import { Link } from "react-router-dom";
 
 const BecomeDistributor = () => {
   const controls = useAnimation();
@@ -68,9 +69,9 @@ const BecomeDistributor = () => {
             variants={itemVariants}
             className="flex justify-center lg:justify-start lg:pl-20 mt-8"
           >
-            <button className="rounded-full border-[#C49E5F] border-2 px-6 py-2 text-xl font-sans transition-all duration-300 hover:bg-[#C49E5F] hover:text-white">
+            <Link to="/distributor"><button className="rounded-full border-[#C49E5F] border-2 px-6 py-2 text-xl font-sans transition-all duration-300 hover:bg-[#C49E5F] hover:text-white">
               Know More
-            </button>
+            </button></Link>
           </motion.div>
 
           <motion.div

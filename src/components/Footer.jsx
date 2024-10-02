@@ -28,10 +28,8 @@ const Footer = () => {
     {
       title: "COMPANY",
       items: [
-        { text: "About us", link: "#" },
-        { text: "Our vision", link: "#" },
-        { text: "Leadership", link: "#" },
-        { text: "Contact us", link: "#" },
+        { text: "About us", link: "/about" },
+        { text: "Contact us", link: "/conatct" },
       ],
     },
     {
@@ -42,23 +40,19 @@ const Footer = () => {
         { text: "Care", link: "#" },
         { text: "Skino", link: "#" },
         { text: "Max Cleaning", link: "#" },
-        { text: "Max STyling Wax", link: "#" },
+        { text: "Max Styling Wax", link: "#" },
       ],
     },
     {
       title: "DISTRIBUTOR",
       items: [
-        { text: "Become a distributor", link: "#" },
-        { text: "Distributor resources", link: "#" },
-        { text: "Distributor FAQ", link: "#" },
+        { text: "Become a distributor", link: "/distributor" },
       ],
     },
     {
       title: "CAREERS",
       items: [
-        { text: "Job openings", link: "#" },
-        { text: "Employee benefits", link: "#" },
-        { text: "Career development", link: "#" },
+        { text: "Job openings", link: "/careers" },
       ],
     },
   ];

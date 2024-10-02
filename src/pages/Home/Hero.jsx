@@ -5,6 +5,7 @@ import Separator from "../../components/Separator";
 import hero_one from "/assets/hero_one.webp";
 import hero_two from "/assets/hero_two.svg";
 import WaveButton from "../../components/WaveButton";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -68,7 +69,7 @@ const Hero = () => {
             <p className="text-gray-700 mb-4 lg:text-lg">
             At Universal Distribution LLC, we are more than just a supply distributor, we are your partners in progress. We strive to offer the best quality products, services, and distribution. Get the taste of partnering with a distributor that understands your business.
             </p>
-            <WaveButton text={"Read more"} />
+            <Link to="/about"><WaveButton text={"Read more"} /></Link>
           </motion.div>
         </Slide>
       </div>

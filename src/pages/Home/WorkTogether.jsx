@@ -5,6 +5,7 @@ import work_one from "/assets/work_one.webp";
 import work_two from "/assets/work_two.webp";
 import work_three from "/assets/work_three.webp";
 import WaveButton from "../../components/WaveButton";
+import { Link } from "react-router-dom";
 
 const WorkTogether = () => {
   return (
@@ -28,9 +29,9 @@ const WorkTogether = () => {
       Are you ready to level up your business? Be one of our satisfied distributors and feel the essence of Universal Distribution LLC. This is a call to create a synergy that would yield productivity and achievements.
       </Fade>
 
-      <div className="flex justify-center py-6">
+      <Link to="/careers" className="flex justify-center py-6">
         <WaveButton text={"Career options"} />
-      </div>
+      </Link>
 
       <div className="flex justify-center gap-5 py-6 lg:flex-row flex-col px-8 lg:px-0">
         <Slide direction="left">

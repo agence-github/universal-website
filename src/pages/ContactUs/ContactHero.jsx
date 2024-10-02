@@ -38,7 +38,7 @@ const ContactHero = () => {
       <Fade>
         <div className="text-center lg:px-36 text-xl px-8 pt-8 lg:pt-0 lg:text-3xl">
           If you have comments or queries, write to us{" "}
-          <span className="text-[#0493FC]">udl@gmail.com</span> and we’ll
+          <span className="text-[#0493FC]">info@udllcdxb.com</span> and we’ll
           contact you as soon as we can.
         </div>
       </Fade>

@@ -31,13 +31,13 @@ const WhereToFind = () => {
               Email
             </h1>
             <div className="text-black text-xl lg:w-2/3 mt-0 tracking-normal font-medium text-center lg:text-left">
-              udl@gmail.com
+            info@udllcdxb.com
             </div>
           </div>
 
           <div className="mt-8">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28928.8805649995!2d55.10092677106287!3d24.99637553177858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f12a5e71425ff%3A0x3d54a7a568db620b!2sJebel%20Ali%20Industrial%20Area%20-%20Dubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1727464038134!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57857.770021053046!2d55.04358498798508!3d24.996356646926188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f12a5e71425ff%3A0x3d54a7a568db620b!2sJebel%20Ali%20Industrial%20Area%20-%20Dubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1727891161845!5m2!1sen!2sin"
               // width="600"
               // height="300"
               className="rounded-lg lg:h-[550px] lg:w-[750px] h-[350px] w-[400px]"
@@ -57,5 +57,3 @@ const WhereToFind = () => {
 };
 
 export default WhereToFind;
-
-
