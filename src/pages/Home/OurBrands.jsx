@@ -11,7 +11,7 @@ import gel from "/assets/brand_logo/maxstylelogo.svg"
 
 const OurBrands = () => {
   return (
-    <section className="py-12">
+    <section className="py-8">
       <div className="lg:text-[130px] text-6xl text-center text-[#C49E5F] lg:tracking-wider cinzel-font uppercase py-4">
         <Slide>Our Brands</Slide>
       </div>

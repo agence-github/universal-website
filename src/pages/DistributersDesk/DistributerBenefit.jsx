@@ -7,7 +7,7 @@ import img4 from "/assets/img4.webp";
 function DistributerBenefit() {
   return (
     <div className="bg-[#C49E5F] py-16">
-      <h2 className="lg:text-7xl text-3xl text-center mb-10 cinzel-font text-white">&#8212;&#8212; DISTRIBUTION BENEFITS &#8212;&#8212;</h2>
+      <h2 className="lg:text-7xl text-3xl text-center mb-10 cinzel-font text-white"> DISTRIBUTION BENEFITS </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-4 md:px-[20vh] ">
         <div className="flex justify-center">
           <img src={img1} alt="" className="shadow-md w-full object-contain md:w-full lg:w-full sm:w-1/2" />

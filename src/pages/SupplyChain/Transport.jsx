@@ -55,7 +55,7 @@ const Transport = () => {
             }}
             viewport={{ once: false, amount: 0.3 }}
           >
-            Universal Distributor LLC aims at providing an efficient and
+            Universal Distribution LLC aims at providing an efficient and
             reliable distribution to its customers regardless of the country
             that they reside. We have logistics and transportation systems that
             we put in place to enhance timely delivery of goods and services

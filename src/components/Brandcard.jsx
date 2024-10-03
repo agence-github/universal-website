@@ -19,7 +19,7 @@ const Brandcard = ({ img, heading, subheading1, subheading2, link }) => {
             {subheading1} <p>{subheading2}</p>
           </p>
 
-          <div className="relative inline-block mt-12">
+          <div className="relative inline-block">
             <p className="text-lg font-sans font-semibold transition-all duration-300 ease-in-out group-hover:text-yellow-300">
               Explore <span className="ml-1 transition-all duration-300 ease-in-out group-hover:ml-2">→</span>
             </p>

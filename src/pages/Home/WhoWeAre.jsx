@@ -7,7 +7,7 @@ import { Fade, Slide } from "react-awesome-reveal";
 
 const WhoWeAre = () => {
   return (
-    <section className="text-[#b19872] p-8 lg:p-16">
+    <section className="text-[#b19872] px-8 lg:p-16">
       <div className="container mx-auto flex flex-col md:flex-row">
         <div className="flex-1 flex flex-col items-center lg:items-end">
           <Slide>
@@ -48,16 +48,16 @@ const WhoWeAre = () => {
               </div>
             </Slide>
 
-            <Fade>
+            {/* <Fade>
               <div className="absolute bottom-[-40%] right-[18%] lg:right-[15%] w-[50%] lg:w-[50%]">
                 <img src={image2} alt="" className="object-cover" />
               </div>
-            </Fade>
+            </Fade> */}
           </div>
 
-          <div className="flex justify-center lg:hidden">
+          {/* <div className="flex justify-center lg:hidden">
             <img src={imagegrp} />
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

@@ -1,36 +1,37 @@
 import React from 'react';
-import distriHome from "/assets/distriHome.webp";
-import WaveButton from '../../components/WaveButton';
 import { Link } from 'react-router-dom';
+import WaveButton from '../../components/WaveButton';
 
-function DistributorHome() {
+const DistributorHome = () => {
   return (
-    <div className="pt-20">
+    <section className="pt-16 sm:pt-20 lg:pt-24">
       <div className="container mx-auto px-4">
-        
-        <div className="flex flex-col lg:flex-row items-center justify-between">
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12">
           
-          <div className="lg:w-1/2 text-center lg:text-left">
-            <h1 className="lg:text-8xl text-4xl cinzel-font  text-[#C49E5F] my-2">
-            ELEVATE YOUR BUSINESS WITH UNIVERSAL DISTRIBUTION LLC  
+          <div className="w-full lg:w-1/2 text-center lg:text-left">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl cinzel-font xl:text-7xl text-[#C49E5F] leading-relaxed mb-4">
+              ELEVATE YOUR BUSINESS WITH UNIVERSAL DISTRIBUTION LLC
             </h1>
-            <p className="text-lg text-gray-600 mb-4 lg:w-[90%]">
-            Become a distributing partner with Universal Distributor LLC and open the door to endless possibilities. You will join an ever-growing family of successful distributors while having access to our great brands at competitive prices and receive first-class support.  
+            <p className="text-base sm:text-lg text-gray-600 mb-6 max-w-xl mx-auto lg:mx-0">
+              Become a distributing partner with Universal Distribution LLC and open the door to endless possibilities. Join our growing family of successful distributors, access great brands at competitive prices, and receive first-class support.
             </p>
-            <Link to="/contact"><WaveButton text="Get in touch" /></Link>
+            <Link to="/contact">
+              <WaveButton text="Get in touch" />
+            </Link>
           </div>
 
-          <div className="mt-8 lg:mt-0 lg:w-1/2">
+          <div className="w-full lg:w-1/2 mt-8 lg:mt-0">
             <img
-              src={distriHome}
+              src="/assets/distriHome.webp"
               alt="Woman standing in a kitchen"
-              className="w-full"
+              className="w-full h-auto object-cover rounded-lg shadow-lg"
+              loading="lazy"
             />
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
-}
+};
 
 export default DistributorHome;
