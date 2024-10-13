@@ -19,6 +19,7 @@ import Care from "./pages/Care/Care";
 import Luv from "./pages/Luv/Luv";
 import Skino from "./pages/Skino/Skino";
 import MaxSTylingGel from "./pages/MaxStylingGel/MaxSTylingGel";
+import Admin from "./pages/Admin";
 
 export default function App() {
   const [screenLoading, setScreenLoading] = useState(false);
@@ -61,6 +62,7 @@ export default function App() {
                 <Route path="/brands/max-styling-gel" element={<MaxSTylingGel />}/>
                 <Route path="/brands/max-cleaning" element={<MaxSTylingGel />}/>
                 <Route path="/brands/max-styling-wax" element={<MaxSTylingGel />}/>
+                <Route path="/universal-only-admin" element={<Admin />}/>
               </Routes>
             </Wrapper>
           </BrowserRouter>

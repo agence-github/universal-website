@@ -81,7 +81,7 @@ const CareerForm = () => {
     setAlert(null);
 
     try {
-      const response = await axios.post('https://universal-backend-ga13.onrender.com/submit-career-form', formData);
+      const response = await axios.post('http://localhost:5000/submit-career-form', formData);
       setAlert({ message: 'Form submitted successfully!', type: 'success' });
       console.log(response.data);
      
