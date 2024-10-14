@@ -99,6 +99,55 @@ export const products = [
     category: 'Soap'
   },
   {
+    id: 22,
+    name: 'Almonds & Soy Protein',
+    brand: 'Luv',
+    image: '/assets/brands/Luv/luv_almondsoy.png',
+    category: 'Shampoo'
+  },
+  {
+    id: 23,
+    name: 'Aloe vera & Tea Tree',
+    brand: 'Luv',
+    image: '/assets/brands/Luv/luv_aloeveraTea.png',
+    category: 'Shampoo'
+  },
+  {
+    id: 24,
+    name: 'Amla & Aloe vera',
+    brand: 'Luv',
+    image: '/assets/brands/Luv/luv_amlaAloe.png',
+    category: 'Shampoo'
+  },
+  {
+    id: 25,
+    name: 'Anti-Wrinkle Lotion',
+    brand: 'Luv',
+    image: '/assets/brands/Luv/luv_antiwrinkle.png',
+    category: 'Lotion'
+  },
+  {
+    id: 26,
+    name: 'Hydration Lotion',
+    brand: 'Luv',
+    image: '/assets/brands/Luv/luv_hydrartion.png',
+    category: 'Lotion'
+  },
+  {
+    id: 27,
+    name: 'Olive Argan',
+    brand: 'Luv',
+    image: '/assets/brands/Luv/luv_olivargan.png',
+    category: 'Shampoo'
+  },
+  {
+    id: 28,
+    name: 'Radiant Glow Lotion',
+    brand: 'Luv',
+    image: '/assets/brands/Luv/luv_radientglow.png',
+    category: 'Lotion'
+  },
+  {
     id: 15,
     name: 'Max Cleaner',
     brand: 'Max Cleaner',
@@ -145,6 +194,62 @@ export const products = [
     name: 'Skino Care Soap',
     brand: 'Skino',
     image: '/assets/brands/Skino/Skino-care-soap.png',
+    category: 'Soap'
+  },
+  {
+    id: 29,
+    name: 'Amla Aloevera',
+    brand: 'Freya',
+    image: '/assets/brands/Freya/freya_amlaAloe.png',
+    category: 'Shampoo'
+  },
+  {
+    id: 30,
+    name: 'Colour Guard Shampoo',
+    brand: 'Freya',
+    image: '/assets/brands/Freya/freya_colorGuard.png',
+    category: 'Shampoo'
+  },
+  {
+    id: 31,
+    name: 'Keratin Shampoo',
+    brand: 'Freya',
+    image: '/assets/brands/Freya/freya_keratin.png',
+    category: 'Shampoo'
+  },
+  {
+    id: 32,
+    name: 'Menthol Cool Shampoo',
+    brand: 'Freya',
+    image: '/assets/brands/Freya/freya_menthol.png',
+    category: 'Shampoo'
+  },
+  {
+    id: 33,
+    name: 'Freya Classic',
+    brand: 'Freya',
+    image: '/assets/brands/Freya/freya_classic.png',
+    category: 'Soap'
+  },
+  {
+    id: 34,
+    name: 'Freya Lavender',
+    brand: 'Freya',
+    image: '/assets/brands/Freya/freya_lavender.png',
+    category: 'Soap'
+  },
+  {
+    id: 35,
+    name: 'Freya Lemon',
+    brand: 'Freya',
+    image: '/assets/brands/Freya/freya_lemon.png',
+    category: 'Soap'
+  },
+  {
+    id: 36,
+    name: 'Freya Red Rose',
+    brand: 'Freya',
+    image: '/assets/brands/Freya/freya_redrose.png',
     category: 'Soap'
   },
 ];

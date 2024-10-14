@@ -3,13 +3,12 @@ import { X, Filter } from 'lucide-react';
 import { products } from '../constants/ProductData';
 
 const BrandFilter = ({brand}) => {
-  const [selectedBrands, setSelectedBrands] = useState(['DefaultBrand']); // Initialize with default brand
+  const [selectedBrands, setSelectedBrands] = useState([`${brand}`]); 
   const [selectedCategories, setSelectedCategories] = useState([]);
   const [filteredProducts, setFilteredProducts] = useState([]);
   const [isFilterOpen, setIsFilterOpen] = useState(false);
 
   useEffect(() => {
-    // Apply the initial filter based on the default brand
     applyFilters([`${brand}`], []);
   }, []);
 
@@ -60,7 +59,7 @@ const BrandFilter = ({brand}) => {
     <div className="container mx-auto p-4 bg-[#FAF5EF]">
       <div className="flex flex-col md:flex-row">
         
-        {/* Sidebar Toggle Button for Mobile */}
+ 
         <div className="md:hidden mb-4">
           <button 
             onClick={() => setIsFilterOpen(!isFilterOpen)} 
@@ -71,12 +70,12 @@ const BrandFilter = ({brand}) => {
           </button>
         </div>
 
-        {/* Filter Section */}
+ 
         <div className={`w-full md:w-1/4 pr-4 mb-4 md:mb-0 md:h-screen md:sticky md:top-0 ${isFilterOpen ? 'block' : 'hidden'} md:block`}>
           <div className="h-full overflow-y-auto bg-white shadow-lg p-4 rounded-lg md:rounded-none">
             <h2 className="text-xl font-bold mb-4 text-gray-800">Filters</h2>
 
-            {/* Brand Filter */}
+      
             <div className="mb-4">
               <h3 className="font-semibold mb-2 text-gray-700">Brands</h3>
               {allBrands.map(brand => (
@@ -92,7 +91,6 @@ const BrandFilter = ({brand}) => {
               ))}
             </div>
 
-            {/* Category Filter */}
             <div className="mb-4">
               <h3 className="font-semibold mb-2 text-gray-700">Categories</h3>
               {allCategories.map(category => (
@@ -108,7 +106,6 @@ const BrandFilter = ({brand}) => {
               ))}
             </div>
 
-            {/* Clear Filters Button */}
             <button
               onClick={clearFilters}
               className="bg-red-500 text-white px-4 py-2 rounded-full hover:bg-red-600 transition duration-300 flex items-center"
@@ -119,7 +116,7 @@ const BrandFilter = ({brand}) => {
           </div>
         </div>
 
-        {/* Product Grid */}
+
         <div className="w-full md:w-3/4">
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
             {filteredProducts.map(product => (
