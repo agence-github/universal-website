@@ -9,7 +9,7 @@ const Luv = () => {
       <Navbar />
       <section>
       <section className="py-24">
-        <BrandFilter />
+        <BrandFilter brand={"Luv"} />
       </section>
       </section>
       <Footer />

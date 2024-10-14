@@ -9,7 +9,7 @@ const MaxSTylingGel = () => {
       <Navbar />
       <section>
       <section className="py-24">
-        <BrandFilter />
+        <BrandFilter brand={"Max Styling Gel"} />
       </section>
       </section>
       <Footer />

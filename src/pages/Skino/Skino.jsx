@@ -9,7 +9,7 @@ const Skino = () => {
       <Navbar />
       <section>
       <section className="py-24">
-        <BrandFilter />
+        <BrandFilter brand={"Skino"} />
       </section>
       </section>
       <Footer />

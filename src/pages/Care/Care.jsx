@@ -8,7 +8,7 @@ const Care = () => {
     <main className="bg-[#FAF5EF]">
       <Navbar />
       <section className="py-24">
-        <BrandFilter />
+        <BrandFilter brand={"Care"} />
       </section>
       <Footer />
     </main>

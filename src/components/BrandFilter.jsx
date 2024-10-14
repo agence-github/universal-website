@@ -1,12 +1,17 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { X, Filter } from 'lucide-react';
 import { products } from '../constants/ProductData';
 
-const BrandFilter = () => {
-  const [selectedBrands, setSelectedBrands] = useState([]);
+const BrandFilter = ({brand}) => {
+  const [selectedBrands, setSelectedBrands] = useState(['DefaultBrand']); // Initialize with default brand
   const [selectedCategories, setSelectedCategories] = useState([]);
-  const [filteredProducts, setFilteredProducts] = useState(products);
-  const [isFilterOpen, setIsFilterOpen] = useState(false); // State for mobile filter toggle
+  const [filteredProducts, setFilteredProducts] = useState([]);
+  const [isFilterOpen, setIsFilterOpen] = useState(false);
+
+  useEffect(() => {
+    // Apply the initial filter based on the default brand
+    applyFilters([`${brand}`], []);
+  }, []);
 
   const handleBrandChange = (brand) => {
     let newSelectedBrands;
