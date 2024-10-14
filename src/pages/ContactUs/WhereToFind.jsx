@@ -13,35 +13,56 @@ const WhereToFind = () => {
             <div className="text-[#C49E5F] lg:text-7xl text-4xl cinzel-font my-6 text-center lg:text-left">
               Where to <p className="pt-2">find us</p>
             </div>
+
+            {/* Address */}
             <h1 className="text-black text-xl mb-3 lg:w-2/3 mt-0 tracking-normal font-semibold text-center lg:text-left">
               Address
             </h1>
             <div className="text-black text-xl mt-0 tracking-normal font-medium text-center lg:text-left px-8 lg:px-0">
-              P.O. Box: 624654| Jebel Ali Industrial Area - 1 | Dubai, UAE.
+              P.O. Box: 181815 | Office No - 301, Dubai Financial Market, Al
+              Quoz, Bur Dubai, UAE
             </div>
 
+            {/* Telephone */}
             <h1 className="text-black text-xl mb-3 lg:w-2/3 mt-2 tracking-normal font-semibold text-center lg:text-left">
               Telephone
             </h1>
             <div className="text-black text-xl lg:w-2/3 mt-0 tracking-normal font-medium text-center lg:text-left">
-              +91 1234567890 , +91 1234567890
+              <a
+                href="tel:+911234567890"
+                className="text-[#0493FC] hover:underline"
+              >
+                +91 1234567890
+              </a>
+              ,{" "}
+              <a
+                href="tel:+911234567890"
+                className="text-[#0493FC] hover:underline"
+              >
+                +91 1234567890
+              </a>
             </div>
 
+            {/* Email */}
             <h1 className="text-black text-xl mb-3 lg:w-2/3 mt-2 tracking-normal font-semibold text-center lg:text-left">
               Email
             </h1>
             <div className="text-black text-xl lg:w-2/3 mt-0 tracking-normal font-medium text-center lg:text-left">
-            info@udllcdxb.com
+              <a
+                href="mailto:info@udllcdxb.com"
+                className="text-[#0493FC] hover:underline"
+              >
+                info@udllcdxb.com
+              </a>
             </div>
           </div>
 
+          {/* Google Map */}
           <div className="mt-8">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57857.770021053046!2d55.04358498798508!3d24.996356646926188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f12a5e71425ff%3A0x3d54a7a568db620b!2sJebel%20Ali%20Industrial%20Area%20-%20Dubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1727891161845!5m2!1sen!2sin"
-              // width="600"
-              // height="300"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.2867771191245!2d55.28585717523605!3d25.227264177691648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f42e96b7df683%3A0xb163e763a5771309!2sDubai%20Financial%20Market!5e0!3m2!1sen!2sin!4v1728885605330!5m2!1sen!2sin"
               className="rounded-lg lg:h-[550px] lg:w-[750px] h-[350px] w-[400px]"
-              allowfullscreen=""
+              allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>

@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
-import { X } from 'lucide-react';
+import { X, Filter } from 'lucide-react';
 import { products } from '../constants/ProductData';
 
 const BrandFilter = () => {
-    const [selectedBrands, setSelectedBrands] = useState([]);
+  const [selectedBrands, setSelectedBrands] = useState([]);
+  const [selectedCategories, setSelectedCategories] = useState([]);
   const [filteredProducts, setFilteredProducts] = useState(products);
+  const [isFilterOpen, setIsFilterOpen] = useState(false); // State for mobile filter toggle
 
   const handleBrandChange = (brand) => {
     let newSelectedBrands;
@@ -14,55 +16,102 @@ const BrandFilter = () => {
       newSelectedBrands = [...selectedBrands, brand];
     }
     setSelectedBrands(newSelectedBrands);
-    applyFilters(newSelectedBrands);
+    applyFilters(newSelectedBrands, selectedCategories);
   };
 
-  const applyFilters = (brands) => {
-    if (brands.length === 0) {
-      setFilteredProducts(products);
+  const handleCategoryChange = (category) => {
+    let newSelectedCategories;
+    if (selectedCategories.includes(category)) {
+      newSelectedCategories = selectedCategories.filter(c => c !== category);
     } else {
-      const filtered = products.filter(product => brands.includes(product.brand));
-      setFilteredProducts(filtered);
+      newSelectedCategories = [...selectedCategories, category];
     }
+    setSelectedCategories(newSelectedCategories);
+    applyFilters(selectedBrands, newSelectedCategories);
+  };
+
+  const applyFilters = (brands, categories) => {
+    let filtered = products;
+
+    if (brands.length > 0) {
+      filtered = filtered.filter(product => brands.includes(product.brand));
+    }
+    if (categories.length > 0) {
+      filtered = filtered.filter(product => categories.includes(product.category));
+    }
+    setFilteredProducts(filtered);
   };
 
   const clearFilters = () => {
     setSelectedBrands([]);
+    setSelectedCategories([]);
     setFilteredProducts(products);
   };
 
   const allBrands = [...new Set(products.map(product => product.brand))];
+  const allCategories = [...new Set(products.map(product => product.category))];
+
   return (
     <div className="container mx-auto p-4 bg-[#FAF5EF]">
       <div className="flex flex-col md:flex-row">
-        {/* Filter Section */}
-        <div className="w-full md:w-1/4 pr-4 mb-4 md:mb-0">
-          <h2 className="text-xl font-bold mb-4 text-gray-800">Filters</h2>
-          
-          {/* Brand Filter */}
-          <div className="mb-4 bg-[#FAF5EF] p-4">
-            <h3 className="font-semibold mb-2 text-gray-700">Brands</h3>
-            {allBrands.map(brand => (
-              <label key={brand} className="flex items-center mb-2 cursor-pointer">
-                <input
-                  type="checkbox"
-                  checked={selectedBrands.includes(brand)}
-                  onChange={() => handleBrandChange(brand)}
-                  className="mr-2 form-checkbox text-green-500"
-                />
-                <span className="text-gray-700">{brand}</span>
-              </label>
-            ))}
-          </div>
-
-          {/* Clear Filters Button */}
-          <button
-            onClick={clearFilters}
-            className="bg-red-500 text-white px-4 py-2 rounded-full hover:bg-red-600 transition duration-300 flex items-center"
+        
+        {/* Sidebar Toggle Button for Mobile */}
+        <div className="md:hidden mb-4">
+          <button 
+            onClick={() => setIsFilterOpen(!isFilterOpen)} 
+            className="bg-gray-900 text-white px-4 py-2 rounded-md flex items-center space-x-2"
           >
-            <X size={18} className="mr-1" />
-            Clear Filters
+            <Filter size={20} />
+            <span>Filters</span>
           </button>
+        </div>
+
+        {/* Filter Section */}
+        <div className={`w-full md:w-1/4 pr-4 mb-4 md:mb-0 md:h-screen md:sticky md:top-0 ${isFilterOpen ? 'block' : 'hidden'} md:block`}>
+          <div className="h-full overflow-y-auto bg-white shadow-lg p-4 rounded-lg md:rounded-none">
+            <h2 className="text-xl font-bold mb-4 text-gray-800">Filters</h2>
+
+            {/* Brand Filter */}
+            <div className="mb-4">
+              <h3 className="font-semibold mb-2 text-gray-700">Brands</h3>
+              {allBrands.map(brand => (
+                <label key={brand} className="flex items-center mb-2 cursor-pointer">
+                  <input
+                    type="checkbox"
+                    checked={selectedBrands.includes(brand)}
+                    onChange={() => handleBrandChange(brand)}
+                    className="mr-2 form-checkbox text-green-500"
+                  />
+                  <span className="text-gray-700">{brand}</span>
+                </label>
+              ))}
+            </div>
+
+            {/* Category Filter */}
+            <div className="mb-4">
+              <h3 className="font-semibold mb-2 text-gray-700">Categories</h3>
+              {allCategories.map(category => (
+                <label key={category} className="flex items-center mb-2 cursor-pointer">
+                  <input
+                    type="checkbox"
+                    checked={selectedCategories.includes(category)}
+                    onChange={() => handleCategoryChange(category)}
+                    className="mr-2 form-checkbox text-green-500"
+                  />
+                  <span className="text-gray-700">{category}</span>
+                </label>
+              ))}
+            </div>
+
+            {/* Clear Filters Button */}
+            <button
+              onClick={clearFilters}
+              className="bg-red-500 text-white px-4 py-2 rounded-full hover:bg-red-600 transition duration-300 flex items-center"
+            >
+              <X size={18} className="mr-1" />
+              Clear Filters
+            </button>
+          </div>
         </div>
 
         {/* Product Grid */}
@@ -74,6 +123,7 @@ const BrandFilter = () => {
                   <img src={product.image} alt={product.name} className="object-cover rounded-md mb-2" />
                   <h3 className="font-bold text-black text-lg my-1">{product.name}</h3>
                   <p className="text-black text-sm">{product.brand}</p>
+                  <p className="text-black text-sm">{product.category}</p>
                 </div>
               </div>
             ))}
@@ -81,7 +131,7 @@ const BrandFilter = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default BrandFilter
+export default BrandFilter;
