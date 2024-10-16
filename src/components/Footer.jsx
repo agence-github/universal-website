@@ -35,12 +35,13 @@ const Footer = () => {
     {
       title: "BRANDS",
       items: [
-        { text: "Freya", link: "/brands/skino" },
-        { text: "Love", link: "/brands/skino" },
-        { text: "Care", link: "/brands/skino" },
+        { text: "Freya", link: "/brands/freya" },
+        { text: "Luv", link: "/brands/luv" },
+        { text: "Care", link: "/brands/care" },
         { text: "Skino", link: "/brands/skino" },
-        { text: "Max Cleaning", link: "/brands/skino" },
-        { text: "Max Styling Wax", link: "/brands/skino" },
+        { text: "Max Cleaning", link: "/brands/max-cleaning" },
+        { text: "Max Styling Wax", link: "/brands/max-styling-wax" },
+        { text: "Max Styling Gel", link: "/brands/max-styling-gel" },
       ],
     },
     {
@@ -71,14 +72,14 @@ const Footer = () => {
           {footerSections.map((section, index) => (
             <FooterSection key={index} {...section} />
           ))}
-          <div className="mb-8 md:mb-0 w-full sm:w-1/2 md:w-1/3 lg:w-1/5 px-4">
+          {/* <div className="mb-8 md:mb-0 w-full sm:w-1/2 md:w-1/3 lg:w-1/5 px-4">
             <h3 className="font-bold text-lg mb-4">SOCIAL MEDIA</h3>
             <div className="flex space-x-4">
               {socialIcons.map((icon, index) => (
                 <SocialIcon key={index} {...icon} />
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="mt-12 pt-8 border-t border-white/30 text-center">
           <p className="text-sm">

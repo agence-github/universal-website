@@ -32,14 +32,14 @@ const WhereToFind = () => {
                 href="tel:+911234567890"
                 className="text-[#0493FC] hover:underline"
               >
-                +91 1234567890
+                +971-4-2321818
               </a>
               ,{" "}
               <a
                 href="tel:+911234567890"
                 className="text-[#0493FC] hover:underline"
               >
-                +91 1234567890
+                +9171-50-9400443
               </a>
             </div>
 
