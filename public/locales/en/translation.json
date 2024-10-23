@@ -66,13 +66,13 @@
   },
   "ourBrands": {
     "subparts": {
-      "brandOverview": {
-        "heading": "Brand Overview",
-        "description": "An insight into the brands we represent."
+      "hero": {
+        "heading1": "Our ",
+        "heading2": "Brands",
+        "description": "At Universal Distribution LLC, we are excited to showcase a wide variety of product lines that span a variety of lifestyles and choices. Our ranges are handpicked to ensure that you get the right quality, value, and innovations."
       },
-      "brandPartnerships": {
-        "heading": "Partnerships",
-        "description": "How we collaborate with our brand partners for mutual success."
+      "explore": {
+        "heading": "Explore our Brands"
       }
     }
   },

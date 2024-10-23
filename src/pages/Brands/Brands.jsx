@@ -10,12 +10,14 @@ import mxcl from "/assets/mxcl.webp";
 import mxwx from "/assets/mxwx.webp";
 
 import brand_end from "/assets/brand_end.webp"
+import { useTranslation } from "react-i18next";
 
 const Brands = () => {
+  const {t} = useTranslation()
   return (
     <section className="py-10">
       <div className="lg:text-7xl text-5xl text-center text-[#C49E5F] lg:tracking-wider cinzel-font uppercase lg:py-8 py-4">
-        <Slide direction="down">Explore our Brands</Slide>
+        <Slide direction="down">{t("ourBrands.subparts.explore.heading")}</Slide>
       </div>
 
       <Fade>
