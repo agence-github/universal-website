@@ -2,8 +2,10 @@ import React from "react";
 import { motion } from "framer-motion";
 import abouthero from "/assets/about-hero.webp";
 import { Fade } from "react-awesome-reveal";
+import { useTranslation } from "react-i18next";
 
 const AboutHero = () => {
+  const {t}= useTranslation()
   return (
     <section>
       <div className="lg:pt-10 pb-6 px-4 sm:px-6 overflow-hidden">
@@ -14,7 +16,7 @@ const AboutHero = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-6xl sm:text-7xl lg:text-[160px] text-center text-[#C49E5F] lg:tracking-wider relative z-10 top-3 cinzel-font lg:top-4"
           >
-            About Us
+            {t("aboutUs.subparts.hero.heading")}
           </motion.h1>
 
           <div className="relative top-8 lg:-top-12">
@@ -37,10 +39,7 @@ const AboutHero = () => {
 
       <Fade>
         <div className="text-center lg:px-20 text-sm px-8 pt-8 lg:pt-0 lg:text-xl">
-          As qualifying market-savvy professionals with a profound love of the
-          luxurious, we showcase outstanding brands to the most selective
-          consumers. This is why we work under the Purely Personal policy—we are
-          committed to offering products that will best fit your requirements.
+        {t("aboutUs.subparts.hero.description")}
         </div>
       </Fade>
     </section>

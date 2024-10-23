@@ -2,8 +2,10 @@ import React, { useState } from "react";
 import ReactPlayer from "react-player";
 import { Fade } from "react-awesome-reveal";
 import vdo from "/assets/video.mp4";
+import { useTranslation } from "react-i18next";
 
 const Sustainability = () => {
+  const {t}= useTranslation()
   const [isPlaying, setIsPlaying] = useState(true);
 
   const togglePlayPause = () => {
@@ -14,13 +16,13 @@ const Sustainability = () => {
     <section className="lg:py-12 py-6">
       <Fade delay={1e3} cascade damping={1e-1}>
         <div className="text-[#C49E5F] lg:text-8xl md:text-5xl text-4xl cinzel-font lg:mb-10 lg:mt-8 uppercase text-center">
-          Sustainability
+        {t("aboutUs.subparts.sustainibility.heading")}
         </div>
       </Fade>
 
       <Fade>
         <div className="text-center lg:px-20 text-sm px-8 py-5 lg:pt-0 lg:text-xl">
-        Universal Distribution LLC is committed to minimising our environmental impact and promoting sustainable practices throughout our operations. We strive to add eco-friendly practices in production and supply chain, reduce waste, and support initiatives that protect our planet.
+        {t("aboutUs.subparts.sustainibility.description")}
         </div>
       </Fade>
 

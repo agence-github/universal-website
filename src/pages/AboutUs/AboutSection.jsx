@@ -1,8 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
 import aboyimg from "/assets/aboutimg.webp";
+import { useTranslation } from "react-i18next";
 
 const AboutSection = () => {
+  const {t}= useTranslation() 
   return (
     <section className="py-10 lg:flex overflow-hidden">
       <motion.div
@@ -25,7 +27,7 @@ const AboutSection = () => {
             }}
             viewport={{ once: false, amount: 0.3 }}
           >
-            QUALITY ASSURED
+            {t("aboutUs.subparts.about.topheading")}
           </motion.h1>
 
           <motion.p
@@ -40,7 +42,7 @@ const AboutSection = () => {
             }}
             viewport={{ once: false, amount: 0.3 }}
           >
-            Always
+            {t("aboutUs.subparts.about.heading")}
           </motion.p>
 
           <motion.p
@@ -55,7 +57,7 @@ const AboutSection = () => {
             }}
             viewport={{ once: false, amount: 0.3 }}
           >
-            At Universal Distribution LLC, we seek to provide our partners with the best quality products. These precautionary measures guarantee the company that all its products are of high quality standard. This focus captures the whole supply chain process, from purchasing to distribution, as we strive to provide the best quality. We promise to deliver your customers with products that will not only work but also are safe and are of high quality.
+            {t("aboutUs.subparts.about.description")}
           </motion.p>
         </div>
       </motion.div>

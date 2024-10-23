@@ -35,13 +35,32 @@
   },
   "aboutUs": {
     "subparts": {
+      "hero":{
+        "heading": "About us",
+        "description": "As qualifying market-savvy professionals with a profound love of the luxurious, we showcase outstanding brands to the most selective consumers. This is why we work under the Purely Personal policy—we are committed to offering products that will best fit your requirements."
+      },
       "mission": {
         "heading": "Our Mission",
-        "description": "Committed to delivering the best in distribution and service."
+        "description": "At Universal Distribution LLC, we are not only a company that offers supply chain management solutions; we are your progress team. The major goal of our company is to provide businesses with relevant services. These key principles of our strategy are faith in partnership and the focus on the individual approach. It’s for this reason that we ensure we make every effort to deliver a perfect distribution channel experience. Universal Distribution LLC is not about supplying; it’s about moving your business to the next level."
       },
       "vision": {
         "heading": "Our Vision",
-        "description": "A world where quality products are accessible to all businesses."
+        "description": "At Universal Distribution LLC, we are not only a company that offers supply chain management solutions; we are your progress team. The major goal of our company is to provide businesses with relevant services. These key principles of our strategy are faith in partnership and the focus on the individual approach. It’s for this reason that we ensure we make every effort to deliver a perfect distribution channel experience. Universal Distribution LLC is not about supplying; it’s about moving your business to the next level."
+      },
+      "leadership": {
+        "heading": "Our Leadership"
+      },
+      "sustainibility": {
+        "heading": "sustainibility",
+        "description": "Universal Distribution LLC is committed to minimising our environmental impact and promoting sustainable practices throughout our operations. We strive to add eco-friendly practices in production and supply chain, reduce waste, and support initiatives that protect our planet."
+      },
+      "about": {
+        "topheading": "QUALITY ASSURED",
+        "heading": "Always",
+        "description": "At Universal Distribution LLC, we seek to provide our partners with the best quality products. These precautionary measures guarantee the company that all its products are of high quality standard. This focus captures the whole supply chain process, from purchasing to distribution, as we strive to provide the best quality. We promise to deliver your customers with products that will not only work but also are safe and are of high quality.",
+        "heading1": "WE DELIVER AN",
+        "heading2": "ELEVATED LIFESTYLE."
+        
       }
     }
   },

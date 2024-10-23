@@ -8,8 +8,10 @@ import abtImg2 from "/assets/abt_img2.webp";
 import abtImg3 from "/assets/abt_img3.webp";
 import abtImg4 from "/assets/abt_img4.webp";
 import abtImg5 from "/assets/abt_img5.webp";
+import { useTranslation } from "react-i18next";
 
 const ProductImg = () => {
+  const {t}= useTranslation()
   const sliderSettings = {
     dots: true,
     infinite: true,
@@ -24,8 +26,8 @@ const ProductImg = () => {
     <section className="lg:py-12 py-8">
       <Fade>
         <div className="text-[#C49E5F] lg:text-6xl md:text-4xl text-4xl cinzel-font lg:mb-10 lg:mt-8 uppercase text-center">
-          WE DELIVER AN
-          <p className="pt-2">ELEVATED LIFESTYLE.</p>
+        {t("aboutUs.subparts.about.heading1")}
+          <p className="pt-2">{t("aboutUs.subparts.about.heading2")}</p>
         </div>
       </Fade>
 
