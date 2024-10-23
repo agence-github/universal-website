@@ -53,11 +53,12 @@ const Navbar = ({color}) => {
                 {item.label} 
               </Link>
             ))}
+          </div>
+          <div className="hidden lg:block">
             <LanguageSelector/>
           </div>
-
           <Link to="/contact" className="hidden lg:block">
-            <button className={`py-2 px-8 rounded-full transition-all duration-300 text-lg font-medium ${
+            <button className={`py-2 px-8 ml-4 rounded-full transition-all duration-300 text-lg font-medium ${
               isScrolled
                 ? 'bg-[#C49E5F] text-white hover:bg-opacity-90'
                 : 'border-2 border-[#C49E5F] text-[#C49E5F] hover:bg-[#C49E5F] hover:text-white'
