@@ -1,0 +1,108 @@
+{
+  "home": {
+    "subparts": {
+      "hero": {
+        "subheading": "BETTER LIVING, BETTER SUPPLY",
+        "mainHeading": "Truly Yours",
+        "description": "At Universal Distribution LLC, we are more than just a supply distributor; we are your partners in progress. We strive to offer the best quality products, services, and distribution. Experience the advantage of partnering with a distributor that truly understands your business.",
+        "buttonText": "Read more"
+      },
+      "whoAreWe": {
+        "heading1": "Who",
+        "heading2": "We Are",
+        "heading": "Who We Are",
+        "description": "Universal Distribution LLC is your total distributor solution—we don’t just supply products; we help you succeed. This is what we call our “Better Living, Better Supply” approach, to serve you best. We confidently step forward to become your preferred online marketplace for all your customers’ requirements."
+      },
+      "ourBrands": {
+        "heading": "Our Brands",
+        "description": "WE CRAFT YOUR RELIANCE"
+      },
+      "becomeDistributor": {
+        "heading1": "Become a",
+        "heading2": "Distributor",
+        "description": "Become a part of our preferred distributor network and get the most out of partnering with Universal Distribution LLC. As a distributor, you will get the opportunity to work with many top brands we have on our product list; you will be offered the best price, and our team will provide you with the necessary assistance of our experienced team. Our focus on the “Purely Personal” service, we're all set to be your stepping stone to success.",
+        "buttonText": "Know More",
+        "subheading":"PARTNER, GROW"
+      },
+      "workWithUs": {
+        "topheading": "Careers",
+        "heading": "let’s work together",
+        "description": "Are you ready to level up your business? Be one of our satisfied distributors and feel the essence of Universal Distribution LLC. This is a call to create a synergy that would yield productivity and achievements.",
+        "buttonText": "Career options"
+
+      }
+    }
+  },
+  "aboutUs": {
+    "subparts": {
+      "mission": {
+        "heading": "Our Mission",
+        "description": "Committed to delivering the best in distribution and service."
+      },
+      "vision": {
+        "heading": "Our Vision",
+        "description": "A world where quality products are accessible to all businesses."
+      }
+    }
+  },
+  "ourBrands": {
+    "subparts": {
+      "brandOverview": {
+        "heading": "Brand Overview",
+        "description": "An insight into the brands we represent."
+      },
+      "brandPartnerships": {
+        "heading": "Partnerships",
+        "description": "How we collaborate with our brand partners for mutual success."
+      }
+    }
+  },
+  "distributorDesk": {
+    "subparts": {
+      "resources": {
+        "heading": "Resources",
+        "description": "Access valuable resources for our distributors."
+      },
+      "support": {
+        "heading": "Support",
+        "description": "Get assistance and answers to your questions as a distributor."
+      }
+    }
+  },
+  "supplyChainNetwork": {
+    "subparts": {
+      "networkOverview": {
+        "heading": "Supply Chain Overview",
+        "description": "Learn about our efficient supply chain processes."
+      },
+      "logistics": {
+        "heading": "Logistics",
+        "description": "Our logistics strategies ensure timely delivery."
+      }
+    }
+  },
+  "careers": {
+    "subparts": {
+      "jobOpportunities": {
+        "heading": "Job Opportunities",
+        "description": "Explore exciting career opportunities at Universal Distribution."
+      },
+      "companyCulture": {
+        "heading": "Company Culture",
+        "description": "Discover the values and environment that define us."
+      }
+    }
+  },
+  "contactUs": {
+    "subparts": {
+      "getInTouch": {
+        "heading": "Get in Touch",
+        "description": "Contact us for more information on how we can work together."
+      },
+      "locations": {
+        "heading": "Our Locations",
+        "description": "Find our offices and distribution centers near you."
+      }
+    }
+  }
+}

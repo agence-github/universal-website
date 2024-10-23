@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Logo from "/assets/logo.svg";
 import { FaBars } from "react-icons/fa";
 import { Link, useLocation } from "react-router-dom";
+import LanguageSelector from "./LanguageSelector";
 
 const Navbar = ({color}) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -52,6 +53,7 @@ const Navbar = ({color}) => {
                 {item.label} 
               </Link>
             ))}
+            <LanguageSelector/>
           </div>
 
           <Link to="/contact" className="hidden lg:block">
@@ -62,6 +64,7 @@ const Navbar = ({color}) => {
             }`}>
               Contact Us
             </button>
+
           </Link>
 
           <div className="lg:hidden">
@@ -119,6 +122,7 @@ const Navbar = ({color}) => {
                 Contact Us
               </button>
             </Link>
+            <LanguageSelector/>
           </div>
         </div>
       </div>

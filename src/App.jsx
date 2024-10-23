@@ -22,6 +22,7 @@ import MaxSTylingGel from "./pages/MaxStylingGel/MaxSTylingGel";
 import Admin from "./pages/Admin";
 import MaxCleaning from "./pages/MaxCleaning.jsx/MaxCleaning";
 
+
 export default function App() {
   const [screenLoading, setScreenLoading] = useState(false);
 

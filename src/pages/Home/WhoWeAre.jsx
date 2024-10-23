@@ -4,8 +4,11 @@ import image1 from "/assets/image1.svg";
 import imagegrp from "/assets/imagegrp.webp";
 import image3 from "/assets/image3.svg";
 import { Fade, Slide } from "react-awesome-reveal";
+import { useTranslation } from "react-i18next";
 
 const WhoWeAre = () => {
+  const {t}= useTranslation()
+
   return (
     <section className="text-[#b19872] px-8 lg:p-16">
       <div className="container mx-auto flex flex-col md:flex-row">
@@ -14,13 +17,13 @@ const WhoWeAre = () => {
             {" "}
             <div className="text-center w-full">
               <h2 className="hidden lg:block text-5xl lg:text-9xl font-light lg:text-right cinzel-font">
-                Who
+                {t("home.subparts.whoAreWe.heading1")}
                 <br />
-                <span className="mt-2 md:mt-4 cinzel-font">We Are</span>
+                <span className="mt-2 md:mt-4 cinzel-font">{t("home.subparts.whoAreWe.heading2")}</span>
               </h2>
 
               <h2 className="lg:hidden text-5xl font-light cinzel-font">
-                Who We Are
+              {t("home.subparts.whoAreWe.heading")}
               </h2>
             </div>
           </Slide>
@@ -37,7 +40,7 @@ const WhoWeAre = () => {
           <Slide direction="up">
             {" "}
             <p className="text-gray-600 text-lg leading-relaxed mb-10 lg:w-3/4">
-            Universal Distribution LLC is your total distributor solution—we don’t just supply products; we help you succeed. This is what we call our “Better Living, Better Supply” approach, to serve you best. We confidently step forward to become your preferred online marketplace for all your customers’ requirements.
+            {t("home.subparts.whoAreWe.description")}
             </p>
           </Slide>
 

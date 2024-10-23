@@ -4,8 +4,11 @@ import { useInView } from "react-intersection-observer";
 import imageForOurBrands from "/assets/imageForOurBrands.webp";
 import { Link } from "react-router-dom";
 import WaveButton from "../../components/WaveButton";
+import { useTranslation } from "react-i18next";
 
 const BecomeDistributor = () => {
+
+  const {t} = useTranslation()
   const controls = useAnimation();
   const [ref, inView] = useInView({
     triggerOnce: true,
@@ -54,8 +57,8 @@ const BecomeDistributor = () => {
             className="text-[#C49E5F] cinzel-font text-4xl sm:text-5xl lg:text-[5.2rem] text-center lg:text-left lg:pl-20 mb-6 lg:mb-0"
           >
             <div className="lg:leading-[90px] tracking-wide">
-              Become A <br />
-              Distributor
+            {t("home.subparts.becomeDistributor.heading1")}<br />
+            {t("home.subparts.becomeDistributor.heading2")}
             </div>
           </motion.h2>
 
@@ -63,21 +66,21 @@ const BecomeDistributor = () => {
             variants={itemVariants}
             className="text-black/60 text-lg lg:text-xl font-sans lg:w-4/5 mt-5 leading-relaxed text-center lg:text-left lg:pl-20"
           >
-            Become a part of our preferred distributor network and get the most out of partnering with Universal Distribution LLC. As a distributor, you will get the opportunity to work with many top brands we have on our product list; you will be offered the best price, and our team will provide you with the necessary assistance of our experienced team. Our focus on the “Purely Personal” service, we're all set to be your stepping stone to success.
+            {t("home.subparts.becomeDistributor.description")}
           </motion.p>
 
           <motion.div
             variants={itemVariants}
             className="flex justify-center lg:justify-start lg:pl-20 mt-8"
           >
-            <Link to="/distributor"><WaveButton text={"Know More"} /></Link>
+            <Link to="/distributor"><WaveButton text={t("home.subparts.becomeDistributor.buttonText")} /></Link>
           </motion.div>
 
           <motion.div
             variants={itemVariants}
             className="cinzel-font font-thin text-6xl sm:text-7xl lg:text-[9rem] text-[#C49E5F]/70 tracking-wider mt-10 lg:ml-12 text-center lg:text-left whitespace-nowrap absolute z-10 hidden lg:block"
           >
-            PARTNER, GROW
+            {t("home.subparts.becomeDistributor.subheading")}
           </motion.div>
         </div>
 

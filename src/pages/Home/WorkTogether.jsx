@@ -6,8 +6,10 @@ import work_two from "/assets/work_two.webp";
 import work_three from "/assets/work_three.webp";
 import WaveButton from "../../components/WaveButton";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const WorkTogether = () => {
+  const {t}=useTranslation()
   return (
     <section className="py-12 max-w-7xl mx-auto">
       <motion.h2
@@ -16,21 +18,21 @@ const WorkTogether = () => {
         transition={{ duration: 0.5 }}
         className="text-center lg:text-xl text-lg uppercase tracking-wider text-gray-500"
       >
-        Careers
+        {t("home.subparts.workWithUs.topheading")}
       </motion.h2>
 
       <div className="lg:text-7xl text-4xl text-center text-[#C49E5F] lg:tracking-wider cinzel-font uppercase lg:py-8 py-4 px-8 lg:px-0">
         <Fade delay={1e3} cascade damping={1e-1}>
-          let’s work together
+        {t("home.subparts.workWithUs.heading")}
         </Fade>
       </div>
 
       <Fade className="text-center lg:px-40 lg:text-xl px-10 text-sm">
-      Are you ready to level up your business? Be one of our satisfied distributors and feel the essence of Universal Distribution LLC. This is a call to create a synergy that would yield productivity and achievements.
+      {t("home.subparts.workWithUs.description")}
       </Fade>
 
       <Link to="/careers" className="flex justify-center py-6">
-        <WaveButton text={"Career options"} />
+        <WaveButton text={t("home.subparts.workWithUs.buttonText")} />
       </Link>
 
       <div className="flex justify-center gap-5 py-6 lg:flex-row flex-col px-8 lg:px-0">
