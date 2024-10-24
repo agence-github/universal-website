@@ -76,18 +76,49 @@
       }
     }
   },
+
+
+
   "distributorDesk": {
     "subparts": {
-      "resources": {
-        "heading": "Resources",
-        "description": "Access valuable resources for our distributors."
+      "hero": {
+        "heading": "ELEVATE YOUR BUSINESS WITH UNIVERSAL DISTRIBUTION LLC",
+        "description": "Become a distributing partner with Universal Distribution LLC and open the door to endless possibilities. Join our growing family of successful distributors, access great brands at competitive prices, and receive first-class support.",
+        "buttonText": "get in touch"
       },
-      "support": {
-        "heading": "Support",
-        "description": "Get assistance and answers to your questions as a distributor."
+      "benefit": {
+        "heading": "DISTRIBUTION BENEFITS",
+        "description1": "You will also be informed of other products which you could buy apart from the products which are produced in large quantities because there are other products that are produced in small quantities and they are not to be sold to anyone in the market. This we can assure will put your business in a more competitive edge which is very vital to delivering and preserving drinks as well as consumers to your business.",
+        "description2": "Promotional and marketing Support: From providing you with access to promotional tools, and advertisement platforms to sales training programs among others. We try to provide all-round marketing and promotional assistance to provide an initial boost to your sales, and brand establishment."
+      },
+      "features":{
+        "title1": "MARKETING MATERIALS",
+        "description1": "With our products, at Universal Distribution LLC, we offer you a complete needful and useful tools for marketing our brands successfully. Whether it is an engaging headline or an attractive product description, well-thought-out videos, tempting images and enticing social media posts, our marketing assets aim to help you make sales and create brand recognition.",
+        "title2": "SALES TOOLS",
+        "description2": "Get your salesforce going with our detailed collection of sales resources. Including but not limited to product list, fliers, sales brochures or any other material that you may require to help clinch a sale, we have the customer relationship management or the CRM tools and applications you need to ensure successful selling. They are goal oriented sales tools aimed at improving your sales process, increasing customer satisfaction and thus resulting in sales growth.",
+        "title3": "TRAINING AND EDUCATION",
+        "description3": "They say, at Universal Distribution LLC it is our business to ensure your success. That is why our training and education program is extensive and intended to ensure that you get all the information you require to succeed as distributors. Our professional staff will support you not only in product knowledge training, selling skills and promotional ideas which will enable you to achieve your maximal possibilities and goals.",
+        "title4": "TECHNICAL SUPPORT",
+        "description4": "At Universal Distribution LLC we pride ourselves in offering our partners the best service. If you have any questions or problems, which you can have with our services, our technical support team will gladly help you. Regardless of what you require assistance with whether it is basic product knowledge or queries to order processing or help with system related issues, you will receive quick and efficient service with us. Kindly, use the mail, or phone to contact us, for support in dealing with your order.",
+        "title5": "DISTRIBUTOR PORTAL",
+        "description5": "In appreciation for your business, we are proud to offer this distributor’s ONLY extranet. Here you can find all the tips, advices and tools you need to enhance your business and increase sales. It ranges from product information and order tracking to the marketing collateral and selling aids, all are within easy reach."
+      },
+      "faq":{
+        "heading": "Frequently Asked Questions",
+        "subheading": "WE'VE GOT YOU COVERED.",
+        "question1": "What shall one get to do so as to become a distributor?",
+        "answer1": "In order to qualify for being a distributor in Universal Distributor LLC, the customers must meet some set stipulations such as, as a past experience in the consumer goods field and adherence to our brand ethos. If you require additional details please feel free to call our sales department.",
+        "question2": "How do I place an order?",
+        "answer2": "Login details are available on our distributor portal where you can follow the easy steps to place your order. We also have our customer service personnel taking care of the orders and serving your needs.",
+        "question3": "Is it possible to get products samples?",
+        "answer3": "Yes, this company does provide product samples especially to those distributors who meet the standard of this company. Concerning samples, please contact the company to speak to our sales team.",
+        "contact": "Key Contact"
       }
     }
   },
+
+
+
   "supplyChainNetwork": {
     "subparts": {
       "networkOverview": {
@@ -100,6 +131,9 @@
       }
     }
   },
+
+
+
   "careers": {
     "subparts": {
       "jobOpportunities": {
@@ -112,6 +146,10 @@
       }
     }
   },
+
+
+
+
   "contactUs": {
     "subparts": {
       "getInTouch": {

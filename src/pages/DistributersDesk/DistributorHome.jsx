@@ -1,8 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import WaveButton from '../../components/WaveButton';
+import { useTranslation } from 'react-i18next';
 
 const DistributorHome = () => {
+  const {t}= useTranslation()
   return (
     <section className="pt-16 sm:pt-20 lg:pt-24">
       <div className="container mx-auto px-4">
@@ -10,13 +12,13 @@ const DistributorHome = () => {
           
           <div className="w-full lg:w-1/2 text-center lg:text-left">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl cinzel-font xl:text-7xl text-[#C49E5F] leading-relaxed mb-4">
-              ELEVATE YOUR BUSINESS WITH UNIVERSAL DISTRIBUTION LLC
+            {t("distributorDesk.subparts.hero.heading")}
             </h1>
             <p className="text-base sm:text-lg text-gray-600 mb-6 max-w-xl mx-auto lg:mx-0">
-              Become a distributing partner with Universal Distribution LLC and open the door to endless possibilities. Join our growing family of successful distributors, access great brands at competitive prices, and receive first-class support.
+            {t("distributorDesk.subparts.hero.description")}
             </p>
             <Link to="/contact">
-              <WaveButton text="Get in touch" />
+              <WaveButton text={t("distributorDesk.subparts.hero.buttonText")} />
             </Link>
           </div>
 

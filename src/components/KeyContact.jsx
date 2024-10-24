@@ -1,10 +1,12 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const KeyContact = () => {
+  const {t}= useTranslation()
   return (
     <div className="pb-6">
       <div className="text-[#C49E5F] lg:text-7xl text-4xl cinzel-font my-6 text-center">
-        Key Contact
+      {t("distributorDesk.subparts.faq.contact")}
       </div>
 
       <div className="text-center">
