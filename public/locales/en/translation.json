@@ -184,13 +184,17 @@
 
   "contactUs": {
     "subparts": {
-      "getInTouch": {
+      "hero": {
         "heading": "Get in Touch",
-        "description": "Contact us for more information on how we can work together."
+        "description1": "If you have comments or queries, write to us",
+        "description2": "and we’ll contact you as soon as we can."
       },
       "locations": {
-        "heading": "Our Locations",
-        "description": "Find our offices and distribution centers near you."
+        "heading1": " Where to ",
+        "heading2": "find us",
+        "title1": "address",
+        "title2": "Telephone",
+        "title3": "email"
       }
     }
   }

@@ -1,8 +1,10 @@
 import React from "react";
 import contactImg from "/assets/contact.webp";
 import { Fade } from "react-awesome-reveal";
+import { useTranslation } from "react-i18next";
 
 const WhereToFind = () => {
+  const {t}= useTranslation()
   return (
     <section className="py-10">
       <Fade>
@@ -11,12 +13,15 @@ const WhereToFind = () => {
         >
           <div className="lg:w-2/3">
             <div className="text-[#C49E5F] lg:text-7xl text-4xl cinzel-font my-6 text-center lg:text-left">
-              Where to <p className="pt-2">find us</p>
+            {t('contactUs.subparts.locations.heading1')}
+              <p className="pt-2">
+              {t('contactUs.subparts.locations.heading2')}
+              </p>
             </div>
 
             {/* Address */}
             <h1 className="text-black text-xl mb-3 lg:w-2/3 mt-0 tracking-normal font-semibold text-center lg:text-left">
-              Address
+            {t('contactUs.subparts.locations.title1')}
             </h1>
             <div className="text-black text-xl mt-0 tracking-normal font-medium text-center lg:text-left px-8 lg:px-0">
               P.O. Box: 181815 | Office No - 301, Dubai Financial Market, Al
@@ -25,7 +30,7 @@ const WhereToFind = () => {
 
             {/* Telephone */}
             <h1 className="text-black text-xl mb-3 lg:w-2/3 mt-2 tracking-normal font-semibold text-center lg:text-left">
-              Telephone
+            {t('contactUs.subparts.locations.title2')}
             </h1>
             <div className="text-black text-xl lg:w-2/3 mt-0 tracking-normal font-medium text-center lg:text-left">
               <a
@@ -45,7 +50,7 @@ const WhereToFind = () => {
 
             {/* Email */}
             <h1 className="text-black text-xl mb-3 lg:w-2/3 mt-2 tracking-normal font-semibold text-center lg:text-left">
-              Email
+            {t('contactUs.subparts.locations.title3')}
             </h1>
             <div className="text-black text-xl lg:w-2/3 mt-0 tracking-normal font-medium text-center lg:text-left">
               <a

@@ -2,8 +2,10 @@ import React from "react";
 import { motion } from "framer-motion";
 import contacthero from "/assets/contact_hero.webp";
 import { Fade } from "react-awesome-reveal";
+import { useTranslation } from "react-i18next";
 
 const ContactHero = () => {
+  const {t}= useTranslation()
   return (
     <section>
       <div className="lg:pt-10 pb-6 px-4 sm:px-6 overflow-hidden">
@@ -14,7 +16,7 @@ const ContactHero = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-6xl sm:text-7xl lg:text-[160px] text-center text-[#C49E5F] lg:tracking-wider relative z-10 top-3 cinzel-font lg:top-4"
           >
-            Contact Us
+            {t('contactUs.subparts.hero.heading')}
           </motion.h1>
 
           <div className="relative top-8 lg:-top-12">
@@ -37,14 +39,14 @@ const ContactHero = () => {
 
       <Fade>
         <div className="text-center lg:px-36 text-xl px-8 pt-8 lg:pt-0 lg:text-3xl">
-          If you have comments or queries, write to us{" "}
+        {t('contactUs.subparts.hero.description1')} {" "}
           <a
             href="mailto:info@udllcdxb.com"
             className="text-[#0493FC] hover:underline"
           >
             info@udllcdxb.com
           </a>{" "}
-          and we’ll contact you as soon as we can.
+          {t('contactUs.subparts.hero.description2')}
         </div>
       </Fade>
     </section>
