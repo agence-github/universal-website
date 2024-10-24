@@ -121,13 +121,30 @@
 
   "supplyChainNetwork": {
     "subparts": {
-      "networkOverview": {
-        "heading": "Supply Chain Overview",
-        "description": "Learn about our efficient supply chain processes."
+      "hero": {
+        "heading1": "A Global Netwrok",
+        "heading2": "For Local Needs",
+        "description": "Our international presence guarantees continuity of supply chain and provide customers with our manufactured premium products. We’re not just global but we are local as well, we’ve got you covered whether you are in your local market or you plan on exporting your products to different countries"
       },
       "logistics": {
-        "heading": "Logistics",
-        "description": "Our logistics strategies ensure timely delivery."
+        "subheading": "LOGISTICS AND",
+        "heading": "TRANSPORTATION",
+        "description": "Universal Distribution LLC aims at providing an efficient and reliable distribution to its customers regardless of the country that they reside. We have logistics and transportation systems that we put in place to enhance timely delivery of goods and services with minimal interruptions. With our devotion in obtaining prime raw materials and managing an effective calendar of delivery from manufacturers to distributors in both local and international markets our company only collaborates with reliable partners. Due to our elaborate transport networks and tracking technologies we can track all deliveries and provide a schedule delivery estimate. This commitment of excellence makes it possible for our clients to get their orders delivered as per the required time line each time."
+      },
+      "quality":{
+        "subheading": "QUALITY CONTROL",
+        "heading": "AND ASSURANCE",
+        "title1":"Stringent Quality Standards",
+        "description1":"Corporate governance in our supply chain is informed by best practices that are at par with industry best practices. Our quality assurance is carried out systematically, and all the company’s products pass through the quality checks from the procurement of raw materials to the end products.",
+        "title2":"In-House Quality Control",
+        "description2":"In this regard, we have our quality control personnel who inspect and test all incoming raw material and final products. This you ensure that the products that you are offering meet the set quality standards and do not have major or minor defects.",
+        "title3":"Continuous Improvement",
+        "description3":"We firmly believe that the quality control does not end with the manufacturing of our products but it is a never-ending process. The quality of products is constantly observed and improved according to trends to make sure that the products quality is above customer expectations."
+      },
+      "supplier":{
+        "subheading": "SUPPLIER",
+        "heading": "Relationships",
+        "description":"We appreciate the good working relationships we have with our suppliers and ensure that we will continue to support our suppliers with an aim of cultivating mutual and strategic partnership. Our suppliers are local hence we can easily monitor their operations with an aim of delivering high quality products and services."
       }
     }
   },

@@ -3,8 +3,10 @@ import ReactPlayer from "react-player";
 import { Fade, Slide } from "react-awesome-reveal";
 import vdo from "/assets/supply.mp4";
 import Separator from "../../components/Separator";
+import { useTranslation } from "react-i18next";
 
 const SupplyHero = () => {
+  const {t}= useTranslation()
   const [isPlaying, setIsPlaying] = useState(true);
 
   const togglePlayPause = () => {
@@ -13,17 +15,13 @@ const SupplyHero = () => {
   return (
     <section className="lg:pt-12">
       <div className="lg:text-7xl text-4xl text-center text-[#C49E5F] lg:tracking-wider cinzel-font uppercase py-4">
-        <Slide className="pb-3">A Global Netwrok</Slide>
-        <Slide direction="right">For Local Needs</Slide>
+        <Slide className="pb-3">{t("supplyChainNetwork.subparts.hero.heading1")}</Slide>
+        <Slide direction="right">{t("supplyChainNetwork.subparts.hero.heading2")}</Slide>
       </div>
 
       <Fade>
         <div className="text-center lg:px-36 text-sm px-8 pt-2 lg:pt-0 lg:text-xl">
-          Our international presence guarantees continuity of supply chain and
-          provide customers with our manufactured premium products. We’re not
-          just global but we are local as well, we’ve got you covered whether
-          you are in your local market or you plan on exporting your products to
-          different countries
+          {t("supplyChainNetwork.subparts.hero.description")}
         </div>
       </Fade>
 

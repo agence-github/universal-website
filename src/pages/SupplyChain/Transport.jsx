@@ -1,8 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
 import aboyimg from "/assets/transport.svg";
+import { useTransition } from "react";
+import { useTranslation } from "react-i18next";
 
 const Transport = () => {
+  const {t}=useTranslation()
   return (
     <section className="py-10 lg:flex overflow-hidden">
       <motion.div
@@ -25,7 +28,7 @@ const Transport = () => {
             }}
             viewport={{ once: false, amount: 0.3 }}
           >
-            LOGISTICS AND
+            {t("supplyChainNetwork.subparts.logistics.subheading")}
           </motion.h1>
 
           <motion.p
@@ -40,7 +43,7 @@ const Transport = () => {
             }}
             viewport={{ once: false, amount: 0.3 }}
           >
-            TRANSPORTATION
+            {t("supplyChainNetwork.subparts.logistics.heading")}
           </motion.p>
 
           <motion.p
@@ -55,18 +58,7 @@ const Transport = () => {
             }}
             viewport={{ once: false, amount: 0.3 }}
           >
-            Universal Distribution LLC aims at providing an efficient and
-            reliable distribution to its customers regardless of the country
-            that they reside. We have logistics and transportation systems that
-            we put in place to enhance timely delivery of goods and services
-            with minimal interruptions. With our devotion in obtaining prime raw
-            materials and managing an effective calendar of delivery from
-            manufacturers to distributors in both local and international
-            markets our company only collaborates with reliable partners. Due to
-            our elaborate transport networks and tracking technologies we can
-            track all deliveries and provide a schedule delivery estimate. This
-            commitment of excellence makes it possible for our clients to get
-            their orders delivered as per the required time line each time.
+            {t("supplyChainNetwork.subparts.logistics.description")}
           </motion.p>
         </div>
       </motion.div>
