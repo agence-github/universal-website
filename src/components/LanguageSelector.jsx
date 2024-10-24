@@ -14,14 +14,17 @@ function LanguageSelector() {
   const changeLanguageHandler = (code) => {
     setSelectedLanguage(code);
     changeLanguage(code);
-
-    // Change website direction based on selected language
-    // document.documentElement.setAttribute("dir", code === "ar" ? "rtl" : "ltr");
+    localStorage.setItem('language', code); 
   };
 
   useEffect(() => {
-    changeLanguage("en");
-    document.documentElement.setAttribute("dir", "ltr");
+    const savedLanguage = localStorage.getItem('language') || 'en'; 
+    setSelectedLanguage(savedLanguage);
+    changeLanguage(savedLanguage);
+
+    // Remove the direction change line
+    // document.documentElement.setAttribute("dir", savedLanguage === "ar" ? "rtl" : "ltr");
+    
   }, []);
 
   return (
@@ -34,7 +37,6 @@ function LanguageSelector() {
         {selectedLanguage === "en" ? "En" : "Ar"}
       </button>
 
-      
       {dropdownOpen && (
         <div className="absolute top-full left-0 mt-2 w-40 text-[#C49E5F] rounded-lg shadow-lg z-10">
           {languages.map((lng) => (
