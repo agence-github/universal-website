@@ -153,13 +153,28 @@
 
   "careers": {
     "subparts": {
-      "jobOpportunities": {
-        "heading": "Job Opportunities",
-        "description": "Explore exciting career opportunities at Universal Distribution."
+      "hero": {
+        "heading1": "Be Part of Something",
+        "heading2": "Beautiful"
       },
-      "companyCulture": {
-        "heading": "Company Culture",
-        "description": "Discover the values and environment that define us."
+      "afterhero": {
+        "heading1": "CRAFT YOUR",
+        "heading2": "FUTURE WITH US",
+        "description": "Ease yourself into adopting a satisfying career with Universal Distributor LLC that encompasses passion and business. Being part of this vibrant group entails working alongside the best talents in this field, advanced branding and marketing and product development skills, and participating in a cause that truly matters.",
+        "marque":"• BETTER LIVING, BETTER SUPPLY.•"
+      },
+      "job": {
+        "topheading": "Employee Benefits",
+        "heading": "More than just a job",
+        "title1": "Professional Growth Opportunities",
+        "description1": "We see to it that our employees grow as the company. We let our employees be a part of engaging activities include various training programs, workshops and mentorship to build on the skills a worker possesses to enable them to grow professionally.",
+        "title2": "Flexible Work Arrangements",
+        "description2": "We respect family life hence forth we believe in work –life balance. We have flexible working conditions to meet the personal needs and interests of the employees.",
+        "title3": "Culture and Values",
+        "description3": "These core values are in our foundation and educate our employees on the trends and processes such as teamwork, innovation, and socioeconomic responsibility. Companies focus on inclusion and acceptance of various cultures people work with and seek to achieve a proper work-life harmony.",
+        "heading1":"Career option",
+        "heading2":"start your journey"
+
       }
     }
   },

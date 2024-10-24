@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import ReactPlayer from "react-player";
 import vdo from "/assets/video.mp4";
+import { useTranslation } from "react-i18next";
 
 const Afterhero = () => {
   const [isPlaying, setIsPlaying] = useState(true);
@@ -8,6 +9,7 @@ const Afterhero = () => {
   const togglePlayPause = () => {
     setIsPlaying(!isPlaying);
   };
+  const {t}= useTranslation() 
   return (
     <section className="py-8">
       <div
@@ -15,15 +17,11 @@ const Afterhero = () => {
       >
         <div className="lg:w-2/3">
           <div className="text-[#C49E5F] lg:text-7xl text-5xl cinzel-font my-6 text-center lg:text-left">
-          CRAFT YOUR 
-            <p className="pt-2">FUTURE WITH US</p>
+          {t("careers.subparts.afterhero.heading1")}
+            <p className="pt-2">{t("careers.subparts.afterhero.heading2")}</p>
           </div>
           <div className="text-black lg:text-xl text-center lg:text-left px-10 lg:px-0 mt-0 tracking-normal font-medium">
-            Ease yourself into adopting a satisfying career with Universal
-            Distributor LLC that encompasses passion and business. Being part of
-            this vibrant group entails working alongside the best talents in
-            this field, advanced branding and marketing and product development
-            skills, and participating in a cause that truly matters.
+          {t("careers.subparts.afterhero.description")}
           </div>
         </div>
 

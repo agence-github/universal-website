@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Search } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import hero from "/assets/career_hero.webp";
+import { useTranslation } from "react-i18next";
 
 const jobTitles = [
   "Territory Sales Managers",
@@ -43,7 +44,7 @@ const CareerHero = () => {
     e.preventDefault();
     console.log("Searching for:", jobTitle, "in", location);
   };
-
+const {t}= useTranslation()
   return (
     <section>
       <div className="relative h-screen flex items-center justify-center overflow-hidden">
@@ -60,9 +61,9 @@ const CareerHero = () => {
             transition={{ duration: 0.8 }}
             className="text-white text-5xl md:text-8xl cinzel-font mb-8 lg:pb-6"
           >
-            Be Part of Something
+            {t("careers.subparts.hero.heading1")}
             <br />
-            <span className="text-6xl md:text-9xl cinzel-font">Beautiful</span>
+            <span className="text-6xl md:text-9xl cinzel-font">{t("careers.subparts.hero.heading2")}</span>
           </motion.h1>
           <div className="relative">
             <motion.form
