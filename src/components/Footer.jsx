@@ -85,6 +85,9 @@ const Footer = () => {
           <p className="text-sm">
             Copyright © {new Date().getFullYear()} Universal Distribution LLC. All Rights Reserved
           </p>
+          <p className="text-sm">
+            Created by The Agenc-E
+          </p>
         </div>
       </div>
     </footer>
