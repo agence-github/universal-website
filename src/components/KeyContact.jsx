@@ -31,7 +31,7 @@ const KeyContact = () => {
         <h1 className="lg:text-xl mb-2">
           Mobile -{" "}
           <a href="tel:+919830346468" className="text-[#0493FC] hover:underline">
-          +9171-50-9400443 (UAE)
+          +971-50-9400443 (UAE)
           </a>
         </h1>
       </div>
