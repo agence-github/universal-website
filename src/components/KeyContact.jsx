@@ -24,13 +24,13 @@ const KeyContact = () => {
         {/* Mobile Numbers */}
         <h1 className="lg:text-xl mb-2">
           Tel -{" "}
-          <a href="tel:+971509400443" className="text-[#0493FC] hover:underline">
+          <a href="tel:+971-4-2321818" className="text-[#0493FC] hover:underline">
           +971-4-2321818 (UAE)
           </a>
         </h1>
         <h1 className="lg:text-xl mb-2">
           Mobile -{" "}
-          <a href="tel:+919830346468" className="text-[#0493FC] hover:underline">
+          <a href="tel:+971-50-9400443" className="text-[#0493FC] hover:underline">
           +971-50-9400443 (UAE)
           </a>
         </h1>

@@ -34,21 +34,21 @@ const WhereToFind = () => {
             </h1>
             <div className="text-black text-xl lg:w-2/3 mt-0 tracking-normal font-medium text-center lg:text-left">
               <a
-                href="tel:+911234567890"
+                href="tel:+971-4-2321818"
                 className="text-[#0493FC] hover:underline"
               >
                 +971-4-2321818
               </a>
               ,{" "}
               <a
-                href="tel:+911234567890"
+                href="tel:+971-50-9400443"
                 className="text-[#0493FC] hover:underline"
               >
                 +971-50-9400443
               </a>
               ,{" "}
               <a
-                href="tel:+911234567890"
+                href="tel:+971-56-4023979"
                 className="text-[#0493FC] hover:underline"
               >
                 +971-56-4023979
